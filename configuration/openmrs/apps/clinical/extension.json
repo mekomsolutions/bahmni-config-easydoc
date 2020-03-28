@@ -12,16 +12,16 @@
     "order": 1,
     "requiredPrivilege": "app:clinical"
   },
-  "bahmniClinicalPatientsSearchNoVitalsPatient": {
-    "id": "bahmni.clinical.patients.search.noVitalsPatients",
+  "bahmniClinicalPatientsSearchAwaitingVitals": {
+    "id": "bahmni.clinical.patients.search.awaitingVitals",
     "extensionPointId": "org.bahmni.patient.search",
     "type": "config",
     "extensionParams": {
-      "searchHandler":"emrapi.sqlSearch.noVitalsPatients",
-      "translationKey": "MODULE_LABEL_NO_VITALS_KEY",
+      "searchHandler":"emrapi.sqlSearch.awaitingVitals",
+      "translationKey": "MODULE_LABEL_AWAITING_VITALS",
       "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard"
     },
-    "label": "Vitals not taken",
+    "label": "Awaiting vitals",
     "order": 2,
     "requiredPrivilege": "app:clinical"
   },

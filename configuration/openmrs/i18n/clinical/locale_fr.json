@@ -8,7 +8,7 @@
   "MODULE_LABEL_EMERGENCY_KEY": "Urgents",
   "MODULE_LABEL_PRIORITY_KEY": "Prioritaires",
   "MODULE_LABEL_QUEUE_KEY": "Non Urgents",
-  "MODULE_LABEL_NO_VITALS_KEY": "Signes vitaux non pris",
+  "MODULE_LABEL_AWAITING_VITALS": "En attente des signes vitaux",
   "IMPL_BP_PULSE": "Tension artérielle / Pouls",
   "IMPL_GROWTH_CHART": "Courbe de croissance",
   "IMPL_BILLING_STATUS": "État de facturation",
