@@ -131,6 +131,106 @@
     },
     "requiredPrivilege": "app:clinical"
 },
+  "bahmniClinicalConceptSetGroupObservationsConsultationForm": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.ConsultationForm",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "default": true,
+      "conceptName": "Cambodia_Consultation Form"
+    },
+    "requiredPrivilege": "app:clinical"
+},
+  "bahmniClinicalConceptSetGroupObservationsHistoryForm": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.HistoryForm",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "default": true,
+      "conceptName": "Cambodia_History Form"
+    },
+    "requiredPrivilege": "app:clinical"
+},
+  "bahmniClinicalConceptSetGroupObservationsImmunizationsForm": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.ImmunizationsForm",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "default": true,
+      "conceptName": "Cambodia_Immunizations Form"
+    },
+    "requiredPrivilege": "app:clinical"
+},
+  "bahmniClinicalConceptSetGroupObservationsLabTestsResultsForm": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.LabTestsResultsForm",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "default": true,
+      "conceptName": "Cambodia_Lab Tests Results Form"
+    },
+    "requiredPrivilege": "app:clinical"
+},
+  "bahmniClinicalConceptSetGroupObservationsReferralForm": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.ReferralForm",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "default": true,
+      "conceptName": "Cambodia_Referral Form"
+    },
+    "requiredPrivilege": "app:clinical"
+},
+  "bahmniClinicalConceptSetGroupObservationsDentalExamForm": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.DentalExamForm",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "default": true,
+      "conceptName": "Cambodia_Dental Exam Form"
+    },
+    "requiredPrivilege": "app:clinical"
+},
+  "bahmniClinicalConceptSetGroupObservationsANCObstetricHistoryForm": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.ANCObstetricHistoryForm",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "default": true,
+      "conceptName": "Cambodia_ANC Obstetric History Form"
+    },
+    "requiredPrivilege": "app:clinical"
+},
+  "bahmniClinicalConceptSetGroupObservationsANCForm": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.ANCForm",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "default": true,
+      "conceptName": "Cambodia_ANC Visit Form"
+    },
+    "requiredPrivilege": "app:clinical"
+},
+  "bahmniClinicalConceptSetGroupObservationsPNCForm": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.PNCForm",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "default": true,
+      "conceptName": "Cambodia_PNC Form"
+    },
+    "requiredPrivilege": "app:clinical"
+},
+  "bahmniClinicalConceptSetGroupObservationsBirthSpacingForm": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.BirthSpacingForm",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "default": true,
+      "conceptName": "Cambodia_Birth Spacing Form"
+    },
+    "requiredPrivilege": "app:clinical"
+},
   "bahmniClinicalBillingTreatment": {
     "id": "bahmni.clinical.billing.treatment",
     "extensionPointId": "org.bahmni.clinical.consultation.board",
