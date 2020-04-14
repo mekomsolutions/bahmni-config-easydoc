@@ -583,6 +583,11 @@
         "required": true,
         "disableAddNotes": true
       },
+      "adtNavigationConfig": {
+	"privilege": "app:adt",
+	"forwardUrl": "../bedmanagement/#/bedManagement/patient/{{patientUuid}}",
+	"title": "Go to IPD dashboard"
+      },
       "defaults": {}
     },
     "visitPage": {
