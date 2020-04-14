@@ -71,6 +71,11 @@
     "allowConsultationWhenNoOpenVisit": false,
     "maxConceptSetLevels": 3,
     "allowOnlyCodedDiagnosis": false,
+    "adtNavigationConfig": {
+      "privilege": "app:adt",
+      "forwardUrl": "../bedmanagement/#/bedManagement/patient/{{patientUuid}}",
+      "title": "Go to IPD dashboard"
+    },
     "conceptSetUI": {
       "Cambodia_Complaint Desc common": {
         "disableAddNotes": true,
@@ -582,11 +587,6 @@
       "Offline Diagnosis Certainty": {
         "required": true,
         "disableAddNotes": true
-      },
-      "adtNavigationConfig": {
-	"privilege": "app:adt",
-	"forwardUrl": "../bedmanagement/#/bedManagement/patient/{{patientUuid}}",
-	"title": "Go to IPD dashboard"
       },
       "defaults": {}
     },
