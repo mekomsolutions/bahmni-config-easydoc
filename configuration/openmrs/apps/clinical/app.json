@@ -641,11 +641,6 @@
         "disableAddNotes": true,
         "allowFutureDates": true
       },
-      "Offline Diagnosis Data": {
-        "codedConceptName": "Offline Diagnosis",
-        "autocomplete": true,
-        "allowAddMore": true
-      },
       "defaults": {}
     },
     "visitPage": {
