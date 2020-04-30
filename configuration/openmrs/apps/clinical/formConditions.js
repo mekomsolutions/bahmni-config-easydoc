@@ -120,6 +120,32 @@ Bahmni.ConceptSet.FormConditions.rules = {
             };
         }
     },
+    'Cambodia_Pregnancy Number' : function (formName, formFieldValues, patient) {
+        var patientAge = patient['age'];
+        var patientGender = patient['gender'];
+        var sections = {
+            "show": [],
+            "hide": []
+        };
+
+        if (patientAge < 1) {
+            return {
+                hide: ["Cambodia_Pregnant Women Immunizations Set"]
+            };
+        } else if (patientAge >= 1 && patientAge < 13) {
+            return {
+                hide: ["Cambodia_Pregnant Women Immunizations Set"]
+            };
+        } else if (patientAge >= 13 && patientGender == 'F') {
+            return {
+                show: ["Cambodia_Pregnant Women Immunizations Set"]
+            };
+        } else {
+            return {
+                hide: ["Cambodia_Pregnant Women Immunizations Set"]
+            };
+        }
+    },
     'Cambodia_Past Medical History' : function (formName, formFieldValues) {
         var fieldValue = formFieldValues['Cambodia_Past Medical History'];
 
