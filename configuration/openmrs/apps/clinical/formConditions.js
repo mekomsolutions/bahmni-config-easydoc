@@ -42,7 +42,7 @@ Bahmni.ConceptSet.FormConditions.rules = {
             };
         }
     },
-    'Cambodia_Newborn Immunizations Set' : function (formName, formFieldValues, patient) {
+    'Cambodia_Past Medical History Details' : function (formName, formFieldValues, patient) {
         var patientAge = patient['age'];
         var patientGender = patient['gender'];
         var sections = {
@@ -68,7 +68,7 @@ Bahmni.ConceptSet.FormConditions.rules = {
             };
         }
     },
-    'Cambodia_Child Immunizations Set' : function (formName, formFieldValues, patient) {
+    'Cambodia_Past Surgical History' : function (formName, formFieldValues, patient) {
         var patientAge = patient['age'];
         var patientGender = patient['gender'];
         var sections = {
@@ -94,7 +94,7 @@ Bahmni.ConceptSet.FormConditions.rules = {
             };
         }
     },
-    'Cambodia_Pregnant Women Immunizations Set' : function (formName, formFieldValues, patient) {
+    'Cambodia_Allergies' : function (formName, formFieldValues, patient) {
         var patientAge = patient['age'];
         var patientGender = patient['gender'];
         var sections = {
