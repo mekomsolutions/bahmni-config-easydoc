@@ -25,7 +25,7 @@ Bahmni.ConceptSet.FormConditions.rules = {
             };
         }
     },
-    'Cambodia_Head Circumference' : function (formName, formFieldValues, patient) {
+    'Cambodia_History of Present Illness' : function (formName, formFieldValues, patient) {
         var patientAge = patient['age'];
         var sections = {
             "show": [],
@@ -395,7 +395,7 @@ Bahmni.ConceptSet.FormConditions.rules = {
             };
         }
     },
-    'Cambodia_Genitourinary Female Symptoms' : function (formName, formFieldValues, patient) {
+    'Cambodia_Progress Note' : function (formName, formFieldValues, patient) {
         var fieldValue = formFieldValues['Cambodia_Genitourinary Female Symptoms'];
         var patientGender = patient['gender'];
         var sections = {
