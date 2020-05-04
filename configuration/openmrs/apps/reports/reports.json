@@ -27,24 +27,28 @@
       ]
     }
   },
-  "inpatientMorbidity": {
-    "name": "Inpatient Morbidity",
-    "type": "diagnosisCount",
-    "requiredPrivilege": "app:reports",
+  "chiefComplaintReport": {
+    "name": "Chief Complaint Report",
+    "type": "obsCount",
     "config": {
-      "visitTypes": [
-        "Hospitalisation"
-      ]
+      "ageGroupName": "All Ages",
+      "conceptNames": [
+        "Chief Complaint"
+      ],
+      "countOnlyClosedVisits": "false"
     }
   },
-  "outpatientMorbidity": {
-    "name": "Outpatient Morbidity",
-    "type": "diagnosisCount",
-    "requiredPrivilege": "app:reports",
+  "bloodPressure": {
+    "name": "Blood Pressure",
+    "type": "obsCount",
     "config": {
-      "visitTypes": [
-        "Ambulatoire"
-      ]
+      "ageGroupName": "All Ages",
+      "conceptNames": [
+        "Systolic",
+        "Diastolic"
+      ],
+      "countOnlyClosedVisits": "false",
+      "countOncePerPatient": "false"
     }
   },
   "patientReport": {
@@ -52,28 +56,33 @@
     "type": "PatientReport",
     "requiredPrivilege": "app:reports"
   },
-  "SampleGenericProgramReport": {
-    "name": "Generic program sample report",
-    "type": "programs",
-    "requiredPrivilege": "app:reports",
+  "pivotReportForPrograms": {
+    "name": "Program Pivot Report",
+    "type": "aggregation",
     "config": {
-      "patientAttributes": [
-        "impl.socialStatus",
-        "impl.occupation",
-        "impl.email",
-        "phoneNumber",
-        "impl.insuranceCompany"
+      "report": {
+        "type": "programs",
+        "config": {
+          "patientAttributes": [],
+          "patientAddresses": [
+            "address2"
+          ],
+          "programAttributes": [],
+          "forDataAnalysis": true,
+          "showAllStates": true
+        }
+      },
+      "columnGroups": [
+        "Program name"
       ],
-      "patientAddresses": [
-        "address1",
-        "address2"
+      "rowGroups": [
+        "Gender"
       ],
-      "programAttributes": [],
-      "forDataAnalysis": true,
-      "showAllStates": true,
-      "programNamesToFilter": [
-        "HIV Program"
-      ]
+      "distinctGroups": [
+        "Patient Identifier"
+      ],
+      "showTotalRow": true,
+      "showTotalColumn": true
     }
   }
 }
