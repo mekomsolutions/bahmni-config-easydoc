@@ -44,8 +44,8 @@
     "config": {
       "ageGroupName": "All Ages",
       "conceptNames": [
-        "Systolic",
-        "Diastolic"
+        "Haiti_Systolic Blood Pressure",
+        "Haiti_Diastolic Blood Pressure"
       ],
       "countOnlyClosedVisits": "false",
       "countOncePerPatient": "false"
