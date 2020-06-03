@@ -121,6 +121,7 @@
   "DASHBOARD_TAB_GENERAL_KEY": "Général",
   "DASHBOARD_TAB_ORDERS_KEY": "Examens",
   "DASHBOARD_TAB_PATIENT_SUMMARY_KEY": "Synthèse patient",
+  "DASHBOARD_TAB_TREATMENT_SUMMARY_KEY": "Résumé du traitement",
   "DASHBOARD_TAB_TRENDS_KEY": "Tendances",
   "DASHBOARD_TITLE_ADMISSION_DETAILS_KEY": "Admissions",
   "DASHBOARD_TITLE_BACTERIOLOGY_RESULTS_KEY": "Resultats d'examens bactériologiques",

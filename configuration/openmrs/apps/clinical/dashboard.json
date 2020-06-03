@@ -213,6 +213,24 @@
       }
     }
   },
+  "treatmentSummary": {
+    "translationKey": "DASHBOARD_TAB_TREATMENT_SUMMARY_KEY",
+    "displayByDefault": true,
+    "maxRecentlyViewedPatients": 2,
+    "sections": {
+      "drugOther": {
+        "translationKey": "DASHBOARD_TITLE_TREATMENTS_KEY",
+        "type": "drugOrderDetails",
+        "displayType": "Full-Page",
+        "showDetailsButton": true,
+        "displayOrder": 24,
+        "dashboardConfig": {
+          "showOnlyActive": true,
+          "drugConceptSet": "All Other Drugs"
+        }
+      }
+    }
+  },
   "orders": {
     "translationKey": "DASHBOARD_TAB_ORDERS_KEY",
     "displayByDefault": false,
