@@ -34,22 +34,24 @@
     "feeInformation":{
         "id": "bahmni.registration.conceptSetGroup.feeInformation",
         "extensionPointId": "org.bahmni.registration.conceptSetGroup.observations",
-        "type": "config",
+        "type": "forms",
         "extensionParams": {
-            "conceptName": "Fee Information",
-            "translationKey": "FEE_INFORMATION_LOCALE_KEY",
-            "required":true
+            "formName": "Fee Information",
+            "conceptNames": ["Fee Information","Comments"],
+            "required":true,
+            "showLatest": true
         },
         "order": 2,
         "requiredPrivilege": "Edit Visits"
     },
-    "triageLevel":{
-        "id": "bahmni.registration.conceptSetGroup.triageLevel",
+    "triageLevel":{"id": "bahmni.registration.conceptSetGroup.triageLevel",
         "extensionPointId": "org.bahmni.registration.conceptSetGroup.observations",
-        "type": "config",
+        "type": "forms",
         "extensionParams": {
-            "conceptName": "Level of emergency severity assessment",
-            "translationKey": "TRIAGE_INFORMATION"
+            "formName": "Triage",
+            "conceptNames": ["Level of emergency severity assessment"],
+            "required":true,
+            "showLatest": true
         },
         "order": 2,
         "requiredPrivilege": "Edit Visits"
@@ -57,11 +59,10 @@
     "vitalSigns":{
         "id": "bahmni.registration.conceptSetGroup.vitalSigns",
         "extensionPointId": "org.bahmni.registration.conceptSetGroup.observations",
-        "type": "config",
+        "type": "forms",
         "extensionParams": {
-            "conceptName": "Vital Signs",
-            "translationKey": "VITAL_SIGNS",
-            "conceptNames": ["Height", "Weight", "BMI", "BMI Status"],
+            "formName": "Vital Signs",
+            "conceptNames": ["Weight","Height", "Blood Pressure Set", "Pulse", "Temperature", "Respiratory Rate", "Oxygen Saturation", "Mid-Upper Arm Circumference"],
             "required":true,
             "showLatest": true
         },
