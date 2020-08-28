@@ -84,7 +84,7 @@
                         "conceptNames": [
                             "Weight",
                             "Height",
-                            "BMI Data",
+                            "BMI",
                             "VS, Blood pressure",
                             "VS, Blood glucose"
                         ],
@@ -94,7 +94,7 @@
                         "conceptNames": [
                             "Weight",
                             "Height",
-                            "BMI Data",
+                            "BMI",
                             "VS, Blood pressure",
                             "VS, Blood glucose"
                         ],
