@@ -112,5 +112,9 @@
   "DASHBOARD_UPCOMING_APPOINTMENTS_KEY": "Upcoming Appointments",
   "DASHBOARD_UPCOMING_APPOINTMENTS_KEY_LINK": "List View",
   "DASHBOARD_NO_PAST_APPOINTMENTS_KEY": "No past appointments",
-  "DASHBOARD_NO_UPCOMING_APPOINTMENTS_KEY": "No upcoming appointments"
+  "DASHBOARD_NO_UPCOMING_APPOINTMENTS_KEY": "No upcoming appointments",
+  "RECENT_VACCINATIONS":"Recent vaccinations",
+  "DASHBOARD_TITLE_HEIGHT_AGE_KEY": "Height Growth Chart",
+  "DASHBOARD_TITLE_WEIGHT_AGE_KEY": "Weight Growth Chart"
+  
 }
