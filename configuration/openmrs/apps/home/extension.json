@@ -77,7 +77,7 @@
     "translationKey": "MODULE_LABEL_IMPLEMENTER_INTERFACE_KEY",
     "url": "/implementer-interface",
     "icon": "fa fa-pencil-square-o",
-    "order": 9,
+    "order": 11,
     "requiredPrivilege": "app:implementer-interface"
   }
 }

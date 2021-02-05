@@ -34,17 +34,18 @@
     "feeInformation":{
         "id": "bahmni.registration.conceptSetGroup.feeInformation",
         "extensionPointId": "org.bahmni.registration.conceptSetGroup.observations",
-        "type": "forms",
+        "type": "forms", 
         "extensionParams": {
-            "formName": "Fee Information",
-            "conceptNames": ["Fee Information","Comments"],
+            "formName": "Frais de consultation",
+            "conceptNames": ["Registration fees","Fee Comments"],
             "required":true,
             "showLatest": true
         },
         "order": 2,
         "requiredPrivilege": "Edit Visits"
     },
-    "triageLevel":{"id": "bahmni.registration.conceptSetGroup.triageLevel",
+    "triageLevel":{
+        "id": "bahmni.registration.conceptSetGroup.triageLevel",
         "extensionPointId": "org.bahmni.registration.conceptSetGroup.observations",
         "type": "forms",
         "extensionParams": {
@@ -53,7 +54,7 @@
             "required":true,
             "showLatest": true
         },
-        "order": 2,
+        "order": 3,
         "requiredPrivilege": "Edit Visits"
     },
     "vitalSigns":{

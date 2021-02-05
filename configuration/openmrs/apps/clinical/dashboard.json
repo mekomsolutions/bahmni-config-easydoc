@@ -1,361 +1,405 @@
 {
-  "general": {
-    "translationKey": "DASHBOARD_TAB_GENERAL_KEY",
-    "displayByDefault": true,
-    "maxRecentlyViewedPatients": 10,
-    "sections": {
-      "visits": {
-        "translationKey": "DASHBOARD_TITLE_VISITS_KEY",
-        "type": "visits",
-        "displayOrder": 1,
-        "showDetailsButton": true,
-        "dashboardConfig": {
-          "title": null,
-          "maximumNoOfVisits": 5,
-          "groupByVisits": true
+    "general": {
+        "translationKey": "DASHBOARD_TAB_GENERAL_KEY",
+        "displayByDefault": true,
+        "maxRecentlyViewedPatients": 10,
+        "sections": {
+            "patientInformation": {
+                "translationKey": "DASHBOARD_TITLE_PATIENT_INFORMATION_KEY",
+                "type": "patientInformation",
+                "displayOrder": 0,
+                "ageLimit": 100,
+                "patientAttributes": [],
+                "addressFields": [
+                    "address1",
+                    "address2",
+                    "cityVillage",
+                    "countryDistrict"
+                ]
+            },
+            "diagnosis": {
+                "translationKey": "DASHBOARD_TITLE_DIAGNOSIS_KEY",
+                "type": "diagnosis",
+                "showCertainty": true,
+                "showOrder": true,
+                "showDetailsButton": true,
+                "displayOrder": 1
+            },
+            "nutritionalValues": {
+                "translationKey": "DASHBOARD_TITLE_NUTRITIONAL_VALUES_KEY",
+                "type": "vitals",
+                "isObservation": true,
+                "displayOrder": 2,
+                "dashboardConfig": {
+                    "conceptNames": [
+                        "HEIGHT",
+                        "Weight",
+                        "BMI",
+                        "BMI STATUS",
+                        "Mid-Upper Arm Circumference"
+                    ],
+                    "showDetailsButton": true,
+                    "numberOfVisits": 2
+                },
+                "expandedViewConfig": {
+                    "conceptNames": [
+                        "HEIGHT",
+                        "Weight",
+                        "BMI",
+                        "BMI STATUS",
+                        "Mid-Upper Arm Circumference"
+                    ],
+                    "numberOfVisits": 2,
+                    "scope": "latest",
+                    "showDetailsButton": true,
+                    "pivotTable": {}
+                }
+            },
+            "conditions": {
+                "translationKey": "CONDITION_LIST_DISPLAY_CONTROL_TITLE",
+                "type": "conditionsList",
+                "displayOrder": 3
+            },
+            "treatments": {
+                "translationKey": "DASHBOARD_TITLE_TREATMENTS_KEY",
+                "type": "treatment",
+                "displayOrder": 4,
+                "dashboardConfig": {
+                    "showFlowSheet": true,
+                    "showListView": true,
+                    "showRoute": true,
+                    "showDrugForm": true,
+                    "numberOfVisits": 5,
+                    "showOtherActive": true,
+                    "showDetailsButton": true
+                },
+                "expandedViewConfig": {
+                    "translationKey": "DASHBOARD_TITLE_TREATMENTS_KEY",
+                    "showFlowSheet": true,
+                    "showListView": true,
+                    "showRoute": true,
+                    "showDrugForm": true,
+                    "numberOfVisits": 10,
+                    "showOtherActive": true,
+                    "showDetailsButton": true
+                }
+            },
+            "customControl": {
+                "type": "custom",
+                "displayOrder": 5,
+                "showDetailsButton": true,
+                "config": {
+                    "showDetailsButton": true,
+                    "translationKey": "RECENT_VACCINATIONS",
+                    "template": "<vaccination></vaccination>",
+                    "vaccinationSets": [
+                        "Vaccination History"
+                    ]
+                }
+            },
+            "vitals": {
+                "translationKey": "DASHBOARD_TITLE_VITALS_KEY",
+                "type": "vitals",
+                "isObservation": true,
+                "displayOrder": 6,
+                "dashboardConfig": {
+                    "conceptNames": [
+                        "Blood Pressure Set",
+                        "Temperature",
+                        "Pulse",
+                        "Respiratory Rate",
+                        "Oxygen Saturation",
+                        "Mid-Upper Arm Circumference"
+                    ],
+                    "showDetailsButton": true,
+                    "numberOfVisits": 2
+                },
+                "expandedViewConfig": {
+                    "conceptNames": [
+                        "Blood Pressure Set",
+                        "Temperature",
+                        "Pulse",
+                        "Respiratory Rate",
+                        "Oxygen Saturation",
+                        "Mid-Upper Arm Circumference"
+                    ],
+                    "numberOfVisits": 2,
+                    "scope": "latest",
+                    "showDetailsButton": true,
+                    "pivotTable": {}
+                }
+            },
+            "visits": {
+                "translationKey": "DASHBOARD_TITLE_VISITS_KEY",
+                "type": "visits",
+                "displayOrder": 7,
+                "dashboardConfig": {
+                    "title": null,
+                    "maximumNoOfVisits": 8,
+                    "groupByVisits": true
+                }
+            },
+            "allergies": {
+                "translationKey": "DASHBOARD_TITLE_ALLERGIES_VALUES_KEY",
+                "type": "vitals",
+                "isObservation": true,
+                "displayOrder": 8,
+                "dashboardConfig": {
+                    "conceptNames": [
+                        "Allergies"
+                    ],
+                    "showDetailsButton": true,
+                    "numberOfVisits": 3
+                },
+                "expandedViewConfig": {
+                    "conceptNames": [
+                        "Allergies"
+                    ],
+                    "numberOfVisits": 3,
+                    "scope": "latest",
+                    "showDetailsButton": true,
+                    "pivotTable": {}
+                }
+            },
+            "patientAppointments": {
+                "type": "custom",
+                "displayOrder": 9,
+                "config": {
+                    "title": "DASHBOARD_TITLE_APPOINTMENTS_KEY",
+                    "template": "<patient-appointments-dashboard section='config' patient='patient'></patient-appointments-dashboard>"
+                }
+            },
+            "ANC": {
+                "translationKey": "DASHBOARD_TITLE_ANC_VALUES_KEY",
+                "type": "vitals",
+                "isObservation": true,
+                "displayOrder": 10,
+                "dashboardConfig": {
+                    "conceptNames": [
+                        "First Visit",
+                        "Estimated Gestational Age"
+                    ],
+                    "showDetailsButton": true,
+                    "numberOfVisits": 3
+                },
+                "expandedViewConfig": {
+                    "conceptNames": [
+                        "First Visit",
+                        "Estimated Gestational Age"
+                    ],
+                    "numberOfVisits": 6,
+                    "scope": "latest",
+                    "showDetailsButton": true,
+                    "pivotTable": {}
+                }
+            },
+            "labOrders": {
+                "orderType": "Lab Order",
+                "type": "ordersControl",
+                "title": "Lab Orders",
+                "displayOrder": 11,
+                "dashboardConfig": {
+                    "conceptNames": [
+                        "Lab Samples"
+                    ],
+                    "numberOfVisits": "4",
+                    "showHeader": true,
+                    "obsIgnoreList": [
+                        "Supine"
+                    ]
+                },
+                "expandedViewConfig": {
+                    "conceptNames": [
+                        "Lab Samples"
+                    ],
+                    "showHeader": true
+                }
+            },
+            "labResults": {
+                "translationKey": "DASHBOARD_TITLE_LAB_RESULTS_KEY",
+                "type": "labOrders",
+                "displayOrder": 12,
+                "dashboardConfig": {
+                    "title": null,
+                    "numberOfVisits": 6,
+                    "showChart": false,
+                    "showTable": true,
+                    "showNormalLabResults": true,
+                    "showCommentsExpanded": true,
+                    "showAccessionNotes": true,
+                    "showDetailsButton": false
+                },
+                "expandedViewConfig": {
+                    "numberOfVisits": 10
+                }
+            }
         }
-      },
-      "customControl": {
-        "type": "custom",
-        "displayOrder": 1,
-        "showDetailsButton": true,
-        "config": {
-          "retireLinesConditions": [
-            [
-              "ORDER",
-              "FULLY_INVOICED"
-            ]
-          ],
-          "nonApprovedConditions": [
-            [
-              "ORDER",
-              "NON_INVOICED"
-            ],
-            [
-              "INVOICE",
-              "OVERDUE",
-              "NOT_PAID"
-            ]
-          ],
-          "approvedConditions": [
-            [
-              "INVOICE",
-              "PAID"
-            ],
-            [
-              "INVOICE",
-              "NOT_OVERDUE"
-            ]
-          ],
-          "patientUuidFieldName": "uuid",
-          "orderExternalIdFieldName": "external_order_id",
-          "showDetailsButton": true,
-          "translationKey": "IMPL_BILLING_STATUS",
-          "template": "<billing-status></billing-status>"
+    },
+    "trends": {
+        "translationKey": "DASHBOARD_TAB_TRENDS_KEY",
+        "displayByDefault": true,
+        "maxRecentlyViewedPatients": 10,
+        "sections": {
+            "heightForAgeChart": {
+                "type": "observationGraph",
+                "translationKey": "DASHBOARD_TITLE_HEIGHT_AGE_KEY",
+                "config": {
+                    "yAxisConcepts": [
+                        "Height"
+                    ],
+                    "referenceData": "charts/heightForAge.csv",
+                    "numberOfVisits": 20
+                },
+                "displayOrder": 10
+            },
+            "weightForAgeChart": {
+                "type": "observationGraph",
+                "translationKey": "DASHBOARD_TITLE_WEIGHT_AGE_KEY",
+                "config": {
+                    "yAxisConcepts": [
+                        "Weight"
+                    ],
+                    "referenceData": "charts/weightForAge.csv",
+                    "numberOfVisits": 20
+                },
+                "displayOrder": 11
+            },
+            "BP": {
+                "type": "observationGraph",
+                "translationKey": "DASHBOARD_TITLE_BLOOD_PRESSURE",
+                "config": {
+                    "yAxisConcepts": [
+                        "Systolic Blood Pressure",
+                        "Diastolic Blood Pressure"
+                    ],
+                    "xAxisConcept": "observationDateTime",
+                    "numberOfVisits": 10
+                },
+                "displayOrder": 12
+            },
+            "weight/BMI": {
+                "type": "observationGraph",
+                "translationKey": "DASHBOARD_TITLE_WEIGHT_BMI",
+                "config": {
+                    "yAxisConcepts": [
+                        "Weight",
+                        "BMI"
+                    ],
+                    "xAxisConcept": "observationDateTime",
+                    "numberOfVisits": 10
+                },
+                "displayOrder": 13
+            },
+            "observationGraph": {
+                "type": "observationGraph",
+                "translationKey": "DASHBOARD_TITLE_PULSE",
+                "config": {
+                    "yAxisConcepts": [
+                        "Pulse"
+                    ],
+                    "xAxisConcept": "observationDateTime",
+                    "numberOfVisits": 10
+                },
+                "displayOrder": 14
+            }
         }
-      },
-      "diagnosis": {
-        "translationKey": "DASHBOARD_TITLE_DIAGNOSIS_KEY",
-        "type": "diagnosis",
-        "showDetailsButton": true,
-        "showCertainty": true,
-        "showOrder": true,
-        "displayOrder": 15
-      },
-      "conditions": {
-        "translationKey": "CONDITION_LIST_DISPLAY_CONTROL_TITLE",
-        "type": "conditionsList",
-        "displayOrder": 20
-      },
-      "treatments": {
-        "translationKey": "DASHBOARD_TITLE_TREATMENTS_KEY",
-        "type": "treatment",
-        "displayOrder": 95,
-        "dashboardConfig": {
-          "showDetailsButton": true,
-          "showRoute": true,
-          "showDrugForm": true,
-          "numberOfVisits": 5,
-          "showOtherActive": true
-        },
-        "expandedViewConfig": {
-          "showDetailsButton": true,
-          "translationKey": "DASHBOARD_TITLE_TREATMENTS_KEY",
-          "showFlowSheet": true,
-          "showListView": true,
-          "showRoute": true,
-          "showDrugForm": true,
-          "showOtherActive": true
+    },
+    "referral": {
+        "translationKey": "DASHBOARD_TAB_REFERRAL_KEY",
+        "displayByDefault": true,
+        "maxRecentlyViewedPatients": 10,
+        "sections": {
+            "referralNote": {
+                "translationKey": "DASHBOARD_TITLE_REFERRAL_NOTE_KEY",
+                "type": "vitals",
+                "isObservation": true,
+                "displayOrder": 0,
+                "dashboardConfig": {
+                    "conceptNames": [
+                        "Reason for Consultation",
+                        "Disposition Note"
+                    ],
+                    "showDetailsButton": false,
+                    "numberOfVisits": 1
+                }
+            },
+            "nutritionalValues": {
+                "translationKey": "DASHBOARD_TITLE_VITALS_KEY",
+                "type": "vitals",
+                "isObservation": true,
+                "displayOrder": 1,
+                "dashboardConfig": {
+                    "conceptNames": [
+                        "Temperature",
+                        "Pulse",
+                        "Respiratory Rate",
+                        "Systolic Blood Pressure",
+                        "Diastolic Blood Pressure",
+                        "Oxygen Saturation",
+                        "Mid-Upper Arm Circumference"
+                    ],
+                    "showDetailsButton": false,
+                    "numberOfVisits": 1
+                }
+            },
+            "allergies": {
+                "translationKey": "DASHBOARD_TITLE_ALLERGIES_VALUES_KEY",
+                "type": "vitals",
+                "isObservation": true,
+                "displayOrder": 2,
+                "dashboardConfig": {
+                    "conceptNames": [
+                        "Allergies"
+                    ],
+                    "showDetailsButton": false,
+                    "numberOfVisits": 3
+                }
+            },
+            "conditions": {
+                "translationKey": "CONDITION_LIST_DISPLAY_CONTROL_TITLE",
+                "type": "conditionsList",
+                "displayOrder": 3
+            },
+            "treatments": {
+                "translationKey": "DASHBOARD_TITLE_TREATMENTS_KEY",
+                "type": "treatment",
+                "displayOrder": 4,
+                "dashboardConfig": {
+                    "showFlowSheet": true,
+                    "showListView": true,
+                    "showRoute": true,
+                    "showDrugForm": true,
+                    "numberOfVisits": 5,
+                    "showOtherActive": true,
+                    "showDetailsButton": false
+                }
+            },
+            "diagnosis": {
+                "translationKey": "DASHBOARD_TITLE_DIAGNOSIS_KEY",
+                "type": "diagnosis",
+                "showCertainty": true,
+                "showOrder": true,
+                "showDetailsButton": false,
+                "displayOrder": 1
+            },
+            "labResults": {
+                "translationKey": "DASHBOARD_TITLE_LAB_RESULTS_KEY",
+                "type": "labOrders",
+                "displayOrder": 12,
+                "dashboardConfig": {
+                    "title": null,
+                    "numberOfVisits": 6,
+                    "showChart": false,
+                    "showTable": true,
+                    "showNormalLabResults": true,
+                    "showCommentsExpanded": true,
+                    "showAccessionNotes": true,
+                    "showDetailsButton": false
+                },
+                "expandedViewConfig": {
+                    "numberOfVisits": 10
+                }
+            }
         }
-      },
-      "vitals": {
-        "translationKey": "DASHBOARD_TITLE_VITALS_KEY",
-        "type": "vitals",
-        "isObservation": true,
-        "displayOrder": 7,
-        "dashboardConfig": {
-          "showDetailsButton": true,
-          "scope": "latest",
-          "conceptNames": [
-            "Pulse",
-            "Systolic Blood Pressure",
-            "Diastolic Blood Pressure",
-            "Temperature",
-            "Respiratory Rate",
-            "Oxygen Saturation",
-            "HSC_Capillary Refill Time Data",
-            "Height",
-            "Weight",
-            "BMI",
-            "BMI Status"
-          ]
-        },
-        "expandedViewConfig": {
-          "showDetailsButton": true,
-          "conceptNames": [
-            "Pulse",
-            "Diastolic Blood Pressure",
-            "Systolic Blood Pressure",
-            "Temperature",
-            "Respiratory Rate",
-            "Oxygen Saturation",
-            "HSC_Capillary Refill Time Data",
-            "Height",
-            "Weight",
-            "BMI",
-            "BMI Status"
-          ],
-          "pivotTable": {
-            "groupBy": "encounters",
-            "obsConcepts": [
-              "Pulse",
-              "Diastolic Blood Pressure",
-              "Systolic Blood Pressure",
-              "Temperature",
-              "Respiratory Rate",
-              "Oxygen Saturation",
-              "HSC_Capillary Refill Time Data",
-              "Height",
-              "Weight",
-              "BMI",
-              "BMI Status"
-            ],
-            "drugConcepts": [],
-            "labConcepts": []
-          }
-        }
-      },
-      "bpPulse": {
-        "type": "observationGraph",
-        "title": "BP / Pulse",
-        "translationKey": "IMPL_BP_PULSE",
-        "config": {
-          "yAxisConcepts": [
-            "Systolic Blood Pressure",
-            "Diastolic Blood Pressure",
-            "Pulse"
-          ],
-          "xAxisConcept": "observationDateTime",
-          "numberOfVisits": 10
-        },
-        "displayOrder": 120
-      },
-      "growthChart": {
-        "type": "observationGraph",
-        "title": "Growth Chart",
-        "translationKey": "IMPL_GROWTH_CHART",
-        "config": {
-          "yAxisConcepts": [
-            "WEIGHT"
-          ],
-          "referenceData": "charts/growthChartReference.csv",
-          "numberOfVisits": 10
-        },
-        "displayOrder": 150
-      },
-      "consultationNote": {
-        "translationKey": "Consultation Note",
-        "isObservation": true,
-        "displayOrder": 1000,
-        "dashboardConfig": {
-          "showDetailsButton": false,
-          "scope": "latest",
-          "conceptNames": [
-            "Consultation Note"
-          ]
-        }
-      },
-      "radiologyOrders": {
-        "orderType": "Radiology Order",
-        "type": "ordersControl",
-        "translationKey": "DASHBOARD_TITLE_RADIOLOGY_ORDERS_KEY",
-        "displayOrder": 80,
-        "dashboardConfig": {
-          "conceptNames": [
-            "Summary"
-          ],
-          "numberOfVisits": 5
-        }
-      },
-      "labOrders": {
-        "translationKey": "DASHBOARD_TITLE_LAB_ORDERS_DISPLAY_CONTROL_KEY",
-        "type": "ordersControl",
-        "orderType": "Lab Order",
-        "showDetailsButton": true,
-        "displayOrder": 90,
-        "dashboardConfig": {},
-        "numberOfVisits": 5
-      },
-      "programs": {
-        "translationKey": "DASHBOARD_TITLE_PROGRAMS_KEY",
-        "type": "programs",
-        "displayOrder": 91
-      }
     }
-  },
-  "treatmentSummary": {
-    "translationKey": "DASHBOARD_TAB_TREATMENT_SUMMARY_KEY",
-    "displayByDefault": true,
-    "maxRecentlyViewedPatients": 2,
-    "sections": {
-      "drugOther": {
-        "translationKey": "DASHBOARD_TITLE_TREATMENTS_KEY",
-        "type": "drugOrderDetails",
-        "displayType": "Full-Page",
-        "showDetailsButton": true,
-        "displayOrder": 24,
-        "dashboardConfig": {
-          "showOnlyActive": true,
-          "drugConceptSet": "All Other Drugs"
-        }
-      }
-    }
-  },
-  "orders": {
-    "translationKey": "DASHBOARD_TAB_ORDERS_KEY",
-    "displayByDefault": false,
-    "maxRecentlyViewedPatients": 10,
-    "sections": {
-      "labOrders": {
-        "translationKey": "DASHBOARD_TITLE_LAB_ORDERS_DISPLAY_CONTROL_KEY",
-        "type": "ordersControl",
-        "orderType": "Lab Order",
-        "showDetailsButton": true,
-        "displayOrder": 10,
-        "dashboardConfig": {},
-        "numberOfVisits": 5
-      },
-      "radiologyOrders": {
-        "orderType": "Radiology Order",
-        "type": "ordersControl",
-        "translationKey": "DASHBOARD_TITLE_RADIOLOGY_ORDERS_KEY",
-        "displayOrder": 20,
-        "dashboardConfig": {
-          "conceptNames": [
-            "Summary"
-          ],
-          "numberOfVisits": 5
-        }
-      },
-      "Surgery": {
-        "translationKey": "DASHBOARD_TITLE_SURGERY_KEY",
-        "type": "ordersControl",
-        "orderType": "Surgery",
-        "showDetailsButton": true,
-        "displayOrder": 30,
-        "dashboardConfig": {},
-        "numberOfVisits": 5
-      },
-      "ENT": {
-        "translationKey": "DASHBOARD_TITLE_ENT_KEY",
-        "type": "ordersControl",
-        "orderType": "ENT",
-        "showDetailsButton": true,
-        "displayOrder": 40,
-        "dashboardConfig": {},
-        "numberOfVisits": 5
-      },
-      "Material": {
-        "translationKey": "DASHBOARD_TITLE_MATERIAL_KEY",
-        "type": "ordersControl",
-        "orderType": "Material",
-        "showDetailsButton": true,
-        "displayOrder": 50,
-        "dashboardConfig": {},
-        "numberOfVisits": 5
-      },
-      "Maxillofacial": {
-        "translationKey": "DASHBOARD_TITLE_MAXILLOFACIAL_KEY",
-        "type": "ordersControl",
-        "orderType": "Maxillofacial",
-        "showDetailsButton": true,
-        "displayOrder": 60,
-        "dashboardConfig": {},
-        "numberOfVisits": 5
-      },
-      "ObstetricsAndGynecology": {
-        "translationKey": "DASHBOARD_TITLE_OBSTERICS_AND_GYNECOLOGY_KEY",
-        "type": "ordersControl",
-        "orderType": "Obstetrics and Gynecology",
-        "showDetailsButton": true,
-        "displayOrder": 60,
-        "dashboardConfig": {},
-        "numberOfVisits": 5
-      },
-      "Ophtalmology": {
-        "translationKey": "DASHBOARD_TITLE_OPHTALMOLOGY_KEY",
-        "type": "ordersControl",
-        "orderType": "Ophtalmology",
-        "showDetailsButton": true,
-        "displayOrder": 70,
-        "dashboardConfig": {},
-        "numberOfVisits": 5
-      },
-      "Orthopedics and Traumatology": {
-        "translationKey": "DASHBOARD_TITLE_ORTHOPEDICS_AND_TRAUMATOLOGY_KEY",
-        "type": "ordersControl",
-        "orderType": "Orthopedics and Traumatology",
-        "showDetailsButton": true,
-        "displayOrder": 80,
-        "dashboardConfig": {},
-        "numberOfVisits": 5
-      },
-      "Procedure": {
-        "translationKey": "DASHBOARD_TITLE_PROCEDURE_KEY",
-        "type": "ordersControl",
-        "orderType": "Procedure",
-        "showDetailsButton": true,
-        "displayOrder": 90,
-        "dashboardConfig": {},
-        "numberOfVisits": 5
-      },
-      "Urology": {
-        "translationKey": "DASHBOARD_TITLE_UROLOGY_KEY",
-        "type": "ordersControl",
-        "orderType": "Urology",
-        "showDetailsButton": true,
-        "displayOrder": 100,
-        "dashboardConfig": {},
-        "numberOfVisits": 5
-      },
-      "Wound": {
-        "translationKey": "DASHBOARD_TITLE_WOUND_KEY",
-        "type": "ordersControl",
-        "orderType": "Wound",
-        "showDetailsButton": true,
-        "displayOrder": 110,
-        "dashboardConfig": {},
-        "numberOfVisits": 5
-      },
-      "Wound Dressing": {
-        "translationKey": "DASHBOARD_TITLE_WOUND_DRESSING_KEY",
-        "type": "ordersControl",
-        "orderType": "Wound Dressing",
-        "showDetailsButton": true,
-        "displayOrder": 120,
-        "dashboardConfig": {},
-        "numberOfVisits": 5
-      }
-    }
-  }
 }
