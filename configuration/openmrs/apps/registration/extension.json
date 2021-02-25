@@ -34,12 +34,11 @@
     "feeInformation":{
         "id": "bahmni.registration.conceptSetGroup.feeInformation",
         "extensionPointId": "org.bahmni.registration.conceptSetGroup.observations",
-        "type": "forms", 
+        "type": "config",
         "extensionParams": {
-            "formName": "Frais de consultation",
-            "conceptNames": ["Registration fees","Fee Comments"],
-            "required":true,
-            "showLatest": true
+            "conceptName": "Fee Information",
+            "translationKey": "FEE_INFORMATION_LOCALE_KEY",
+            "required":true
         },
         "order": 2,
         "requiredPrivilege": "Edit Visits"
@@ -47,23 +46,22 @@
     "triageLevel":{
         "id": "bahmni.registration.conceptSetGroup.triageLevel",
         "extensionPointId": "org.bahmni.registration.conceptSetGroup.observations",
-        "type": "forms",
+        "type": "config",
         "extensionParams": {
-            "formName": "Triage",
-            "conceptNames": ["Level of emergency severity assessment"],
-            "required":true,
-            "showLatest": true
+            "conceptName": "Triage information",
+            "translationKey": "TRIAGE_INFORMATION"
         },
-        "order": 3,
+        "order": 2,
         "requiredPrivilege": "Edit Visits"
     },
     "vitalSigns":{
         "id": "bahmni.registration.conceptSetGroup.vitalSigns",
         "extensionPointId": "org.bahmni.registration.conceptSetGroup.observations",
-        "type": "forms",
+        "type": "config",
         "extensionParams": {
-            "formName": "Vital Signs",
-            "conceptNames": ["Weight","Height", "Blood Pressure Set", "Pulse", "Temperature", "Respiratory Rate", "Oxygen Saturation", "Mid-Upper Arm Circumference"],
+            "conceptName": "Vital Signs Form",
+            "translationKey": "VITAL_SIGNS",
+            "conceptNames": ["Nutritional Values", "BMI Data", "BMI Status Data"],
             "required":true,
             "showLatest": true
         },

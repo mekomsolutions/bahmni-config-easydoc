@@ -17,10 +17,10 @@
         "wardListPrintAttributes":[],
         "wardListSqlSearchHandler": "bedManagement.sqlGet.patientListForAdmissionLocation",
         "diagnosisStatus": "Inactive",
-        "onAdmissionForwardTo": "http://localhost/bahmni/bedmanagement/#/home",
+        "onAdmissionForwardTo": "#",
         "onTransferForwardTo": "#",
         "onDischargeForwardTo": "#",
-        "defaultVisitType": "Family practice",
+        "defaultVisitType": "Hospitalisation",
         "expectedDateOfDischarge": "",
         "conceptSetUI": {
             "Expected Date of Discharge": {

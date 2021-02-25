@@ -76,6 +76,19 @@
     "order": 3,
     "requiredPrivilege": "app:clinical"
   },
+  "bahmniClinicalPatientsSearchQueuePatient": {
+    "id": "bahmni.clinical.patients.search.queuePatients",
+    "extensionPointId": "org.bahmni.patient.search",
+    "type": "config",
+    "extensionParams": {
+      "searchHandler":"emrapi.sqlSearch.queuePatients",
+      "translationKey": "MODULE_LABEL_QUEUE_KEY",
+      "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard"
+    },
+    "label": "Queue",
+    "order": 4,
+    "requiredPrivilege": "app:clinical"
+  },
   "observations": {
     "id": "bahmni.clinical.consultation.observations",
     "extensionPointId": "org.bahmni.clinical.consultation.board",
@@ -138,7 +151,7 @@
     "type": "config",
     "extensionParams": {
       "default": true,
-      "conceptName": "Haiti_Vital Signs Form"
+      "conceptName": "Vital Signs Form"
     },
     "requiredPrivilege": "app:clinical"
 },
@@ -148,7 +161,7 @@
     "type": "config",
     "extensionParams": {
       "default": true,
-      "conceptName": "Cambodia_Consultation Form"
+      "conceptName": "Consultation Form"
     },
     "requiredPrivilege": "app:clinical"
 },
@@ -168,7 +181,7 @@
     "type": "config",
     "extensionParams": {
       "default": true,
-      "conceptName": "Cambodia_History Form"
+      "conceptName": "History Form"
     },
     "requiredPrivilege": "app:clinical"
 },
@@ -178,7 +191,7 @@
     "type": "config",
     "extensionParams": {
       "default": true,
-      "conceptName": "Cambodia_Immunizations Form"
+      "conceptName": "Immunizations Form"
     },
     "requiredPrivilege": "app:clinical"
 },
@@ -188,7 +201,7 @@
     "type": "config",
     "extensionParams": {
       "default": true,
-      "conceptName": "Cambodia_Lab Tests Results Form"
+      "conceptName": "Lab Tests Results Form"
     },
     "requiredPrivilege": "app:clinical"
 },
@@ -198,7 +211,7 @@
     "type": "config",
     "extensionParams": {
       "default": true,
-      "conceptName": "Cambodia_Referral Form"
+      "conceptName": "Referral Form"
     },
     "requiredPrivilege": "app:clinical"
 },
@@ -208,7 +221,7 @@
     "type": "config",
     "extensionParams": {
       "default": true,
-      "conceptName": "Cambodia_Dental Exam Form"
+      "conceptName": "Dental Exam Form"
     },
     "requiredPrivilege": "app:clinical"
 },
@@ -218,7 +231,7 @@
     "type": "config",
     "extensionParams": {
       "default": true,
-      "conceptName": "Cambodia_ANC Obstetric History Form"
+      "conceptName": "ANC Obstetric History Form"
     },
     "requiredPrivilege": "app:clinical"
 },
@@ -228,7 +241,7 @@
     "type": "config",
     "extensionParams": {
       "default": true,
-      "conceptName": "Cambodia_ANC Visit Form"
+      "conceptName": "ANC Visit Form"
     },
     "requiredPrivilege": "app:clinical"
 },
@@ -238,7 +251,7 @@
     "type": "config",
     "extensionParams": {
       "default": true,
-      "conceptName": "Cambodia_PNC Form"
+      "conceptName": "PNC Form"
     },
     "requiredPrivilege": "app:clinical"
 },
@@ -248,7 +261,7 @@
     "type": "config",
     "extensionParams": {
       "default": true,
-      "conceptName": "Cambodia_Birth Spacing Form"
+      "conceptName": "Birth Spacing Form"
     },
     "requiredPrivilege": "app:clinical"
 },
