@@ -1,114 +1,89 @@
 {
-  "visitCountReport0": {
-    "name": "General Visit Report",
-    "type": "visits",
-    "requiredPrivilege": "app:reports",
-    "config": {
-      "forDataAnalysis": true
-    }
-  },
-  "visitCountReport1": {
-    "name": "Visit Count",
+  "visitReport10": {
+    "name": "Visit Report",
     "type": "visits",
     "requiredPrivilege": "app:reports",
     "config": {
       "forDataAnalysis": true,
+      "patientAttributes": [
+        "impl.socialStatus",
+        "impl.occupation",
+        "impl.email",
+        "phoneNumber",
+        "impl.insuranceCompany"
+      ],
       "visitAttributes": [
         "Visit Status",
         "Admission Status"
       ],
-      "visitTypesToFilter": [],
-      "excludeColumns": [
-        "Patient Name"
+      "patientAddresses": [
+        "address1",
+        "address2"
       ],
-      "sortBy": [
-        {
-          "column": "Age",
-          "sortOrder": "asc"
-        }
+      "applyDateRangeFor": "visitStopDate",
+      "visitTypesToFilter": [
+        "Urgences",
+        "Ambulatoire"
       ]
     }
   },
-  "aggregationReport": {
-    "name": "Visit aggregation Report",
+  "chiefComplaintReport": {
+    "name": "Chief Complaint Report",
+    "type": "obsCount",
+    "requiredPrivilege": "app:reports",
+    "config": {
+      "conceptNames": [
+        "Chief Complaint"
+      ],
+      "countOnlyClosedVisits": "false"
+    }
+  },
+  "bloodPressure": {
+    "name": "Blood Pressure",
+    "type": "obsCount",
+    "requiredPrivilege": "app:reports",
+    "config": {
+      "conceptNames": [
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure"
+      ],
+      "countOnlyClosedVisits": "false",
+      "countOncePerPatient": "false"
+    }
+  },
+  "patientReport": {
+    "name": "Patient Information",
+    "type": "PatientReport",
+    "requiredPrivilege": "app:reports"
+  },
+  "pivotReportForPrograms": {
+    "name": "Program Pivot Report",
     "type": "aggregation",
     "requiredPrivilege": "app:reports",
     "config": {
       "report": {
-        "type": "visits",
-        "requiredPrivilege": "app:reports",
+        "type": "programs",
         "config": {
-          "forDataAnalysis": true
+          "patientAttributes": [],
+          "patientAddresses": [
+            "address2"
+          ],
+          "programAttributes": [],
+          "forDataAnalysis": true,
+          "showAllStates": true
         }
       },
+      "columnGroups": [
+        "Program name"
+      ],
       "rowGroups": [
-        "Visit Type"
+        "Gender"
       ],
       "distinctGroups": [
         "Patient Identifier"
       ],
       "showTotalRow": true,
       "showTotalColumn": true
-    }
-  },
-  "reportObservations": {
-    "name": "Reason For Consultation as Accidents",
-    "type": "observations",
-    "requiredPrivilege": "app:reports",
-    "config": {
-      "visitAttributes": [
-        "Visit Status",
-        "Admission Status"
-      ],
-      "showVisitInfo": true,
-      "showProvider": true,
-      "programsToFilter": [],
-      "conceptNamesToFilter": [
-        "Reason for Consultation"
-      ],
-      "conceptValuesToFilter": [
-        "Motorcycle Road Accident",
-        "Vehicle Road Accident",
-        "Other Road Accident Type",
-        "Work Accident",
-        "Sexual Violence",
-        "Physical Violence",
-        "Other Violence Type"
-      ],
-      "conceptClassesToFilter": [],
-      "encounterPerRow": false,
-      "forDataAnalysis": true,
-      "excludeColumns": [
-        "Patient Name"
-      ],
-      "ignoreEmptyValues": false,
-      "conceptNameDisplayFormat": "shortNamePreferred"
-    }
-  },
-  "vaccinationreport": {
-    "name": "Vaccination Report",
-    "type": "observations",
-    "requiredPrivilege": "app:reports",
-    "config": {
-      "visitAttributes": [
-        "Visit Status",
-        "Admission Status"
-      ],
-      "showVisitInfo": true,
-      "showProvider": true,
-      "programsToFilter": [],
-      "conceptNamesToFilter": [
-        "Vaccination History"
-      ],
-      "conceptValuesToFilter": [],
-      "conceptClassesToFilter": [],
-      "encounterPerRow": false,
-      "forDataAnalysis": true,
-      "excludeColumns": [
-        "Patient Name"
-      ],
-      "ignoreEmptyValues": false,
-      "conceptNameDisplayFormat": "shortNamePreferred"
     }
   }
 }

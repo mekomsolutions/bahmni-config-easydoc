@@ -1,0 +1,645 @@
+{
+  "id": "bahmni.clinical",
+  "extensionPoints": [
+    {
+      "id": "org.bahmni.clinical.consultation.board",
+      "description": "Bahmni Clinical Consultation Page"
+    },
+    {
+      "id": "org.bahmni.clinical.conceptSetGroup.*",
+      "description": "Define conceptsets part of a conceptset group"
+    },
+    {
+      "id": "org.bahmni.clinical.orders",
+      "description": "Bahmni Orders Page"
+    },
+    {
+      "id": "org.bahmni.patient.search",
+      "description": "Bahmni Patient search, lookups Page"
+    }
+  ],
+  "contextModel": [
+    "patientUuid",
+    "visitUuid"
+  ],
+  "config": {
+    "hideConditions": false,
+    "enableRadiologyOrderOptions": [
+      "Urgent",
+      "NeedsPrint"
+    ],
+    "enableLabOrderOptions": [
+      "Urgent",
+      "NeedsPrint"
+    ],
+    "quickPrints": false,
+    "networkConnectivity": {
+      "showNetworkStatusMessage": false,
+      "networkStatusCheckInterval": 20000,
+      "locales": [
+        {
+          "locale": "fr",
+          "css": "offline-language-french"
+        },
+        {
+          "locale": "es",
+          "css": "offline-language-spanish"
+        },
+        {
+          "locale": "pt",
+          "css": "offline-language-portuguese-brazil"
+        }
+      ]
+    },
+    "diagnosisStatus": "Inactive",
+    "patientContext": {
+      "programAttributes": [
+        "Id_Number",
+        "Doctor",
+        "Stage"
+      ],
+      "additionalPatientIdentifiers": [
+        "National ID"
+      ],
+      "preferredIdentifier": "Id_Number"
+    },
+    "obsIgnoreList": [
+      "REGISTRATION FEES",
+      "COMMENTS",
+      "Patient file"
+    ],
+    "allowConsultationWhenNoOpenVisit": false,
+    "maxConceptSetLevels": 3,
+    "allowOnlyCodedDiagnosis": false,
+    "adtNavigationConfig": {
+      "privilege": "app:adt",
+      "forwardUrl": "../bedmanagement/#/bedManagement/patient/{{patientUuid}}",
+      "title": "Go to IPD dashboard"
+    },
+    "conceptSetUI": {
+      "Chief Complaint Duration": {
+        "dropdown": true,
+        "disableAddNotes": true
+      },
+      "Complaint 2 Duration": {
+        "dropdown": true,
+        "disableAddNotes": true
+      },
+      "Complaint 3 Duration": {
+        "dropdown": true,
+        "disableAddNotes": true
+      },
+      "Chief Complaint common": {
+        "dropdown": true,
+        "disableAddNotes": true
+      },
+      "Complaint 2 common": {
+        "dropdown": true,
+        "disableAddNotes": true
+      },
+      "Complaint 3 common": {
+        "dropdown": true,
+        "disableAddNotes": true
+      },
+      "Chief Complaint Data": {
+        "autocomplete": true,
+        "codedConceptName": "Chief Complaint",
+        "durationRequired": false,
+        "allowAddMore": true
+      },
+      "Complaint Desc common": {
+        "disableAddNotes": true,
+        "multiSelect": true
+      },
+      "Pregnancy Test": {
+        "disableAddNotes": true
+      },
+      "New Immunization": {
+        "multiSelect": true
+      },
+      "Past Medical History": {
+        "multiSelect": true
+      },
+      "Referred To": {
+        "conciseText": true
+      },
+      "Immunizations": {
+        "multiSelect": true
+      },
+      "General Symptoms": {
+        "multiSelect": true
+      },
+      "HEENT Symptoms": {
+        "multiSelect": true
+      },
+      "Cardiovascular Symptoms": {
+        "multiSelect": true
+      },
+      "Respiratory Symptoms": {
+        "multiSelect": true
+      },
+      "Gastrointestinal Symptoms": {
+        "multiSelect": true
+      },
+      "Genitourinary Female Symptoms": {
+        "multiSelect": true
+      },
+      "Genitourinary Male Symptoms": {
+        "multiSelect": true
+      },
+      "Neurologic Symptoms": {
+        "multiSelect": true
+      },
+      "Musculoskeletal Symptoms": {
+        "multiSelect": true
+      },
+      "Endocrine Symptoms": {
+        "multiSelect": true
+      },
+      "Skin Symptoms": {
+        "multiSelect": true
+      },
+      "Skin Exam": {
+        "required": true,
+        "disableAddNotes": true
+      },
+      "Skin Exam Abnormalities": {
+        "multiSelect": true,
+        "disableAddNotes": true
+      },
+      "Head Exam": {
+        "required": true,
+        "disableAddNotes": true
+      },
+      "Head Circumference": {
+        "disableAddNotes": true
+      },
+      "Head Exam Abnormalities": {
+        "multiSelect": true,
+        "disableAddNotes": true
+      },
+      "Neck Exam": {
+        "required": true,
+        "disableAddNotes": true
+      },
+      "Neck Exam Abnormalities": {
+        "multiSelect": true,
+        "disableAddNotes": true
+      },
+      "Ears Exam": {
+        "required": true,
+        "disableAddNotes": true
+      },
+      "Ears Exam Abnormalities": {
+        "multiSelect": true,
+        "disableAddNotes": true
+      },
+      "Eyes Exam": {
+        "required": true,
+        "disableAddNotes": true
+      },
+      "Eyes Exam Abnormalities": {
+        "multiSelect": true,
+        "disableAddNotes": true
+      },
+      "Chest and Lungs Exam": {
+        "required": true,
+        "disableAddNotes": true
+      },
+      "Chest and Lungs Exam Abnormalities": {
+        "multiSelect": true,
+        "disableAddNotes": true
+      },
+      "Cardiovascular Exam": {
+        "required": true,
+        "disableAddNotes": true
+      },
+      "Cardiovascular Exam Abnormalities": {
+        "multiSelect": true,
+        "disableAddNotes": true
+      },
+      "Regular Rate and Rhythm": {
+        "disableAddNotes": true
+      },
+      "Carotid bruit": {
+        "disableAddNotes": true
+      },
+      "Heartrate": {
+        "disableAddNotes": true
+      },
+      "Abdomen Exam": {
+        "required": true,
+        "disableAddNotes": true
+      },
+      "Abdomen Exam Abnormalities": {
+        "multiSelect": true,
+        "disableAddNotes": true
+      },
+      "Genitourinary Exam": {
+        "required": true,
+        "disableAddNotes": true
+      },
+      "Genitourinary Female Exam Abnormalities": {
+        "multiSelect": true,
+        "disableAddNotes": true
+      },
+      "Genitourinary Male Exam Abnormalities": {
+        "multiSelect": true,
+        "disableAddNotes": true
+      },
+      "Flank and Back Exam": {
+        "required": true,
+        "disableAddNotes": true
+      },
+      "Flank and Back Exam Abnormalities": {
+        "multiSelect": true,
+        "disableAddNotes": true
+      },
+      "Musculoskeletal and Neurological Exam": {
+        "disableAddNotes": true
+      },
+      "Musculoskeletal Exam Abnormalities": {
+        "multiSelect": true,
+        "disableAddNotes": true
+      },
+      "Missing Teeth": {
+        "multiSelect": true,
+        "autocomplete": true
+      },
+      "Teeth Filled": {
+        "multiSelect": true,
+        "autocomplete": true
+      },
+      "Teeth Extracted": {
+        "multiSelect": true,
+        "autocomplete": true
+      },
+      "Pulse Data": {
+        "hideAbnormalButton": false,
+        "disableAddNotes": true
+      },
+      "Systolic Blood Pressure Data": {
+        "hideAbnormalButton": false,
+        "disableAddNotes": true
+      },
+      "Diastolic Blood Pressure Data": {
+        "hideAbnormalButton": false,
+        "disableAddNotes": true
+      },
+      "Temperature Data": {
+        "hideAbnormalButton": false,
+        "disableAddNotes": true
+      },
+      "Respiratory Rate Data": {
+        "hideAbnormalButton": false,
+        "disableAddNotes": true
+      },
+      "Oxygen Saturation Data": {
+        "hideAbnormalButton": false,
+        "disableAddNotes": true
+      },
+      "Capillary Refill Time Data": {
+        "disableAddNotes": true,
+        "hideAbnormalButton": false
+      },
+      "New Case": {
+        "required": true,
+        "disableAddNotes": true
+      },
+      "Polio1": {
+        "disableAddNotes": true
+      },
+      "Polio2": {
+        "disableAddNotes": true
+      },
+      "Polio3": {
+        "disableAddNotes": true
+      },
+      "IPV": {
+        "disableAddNotes": true
+      },
+      "IPV, Date Given": {
+        "disableAddNotes": true
+      },
+      "DTP-Hep-Hip1": {
+        "disableAddNotes": true
+      },
+      "DTP-Hep-Hip2": {
+        "disableAddNotes": true
+      },
+      "DTP-Hep-Hip3": {
+        "disableAddNotes": true
+      },
+      "PCV1": {
+        "disableAddNotes": true
+      },
+      "PCV2": {
+        "disableAddNotes": true
+      },
+      "PCV3": {
+        "disableAddNotes": true
+      },
+      "MR1": {
+        "disableAddNotes": true
+      },
+      "JE": {
+        "disableAddNotes": true
+      },
+      "MR***": {
+        "disableAddNotes": true
+      },
+      "Tetanus1": {
+        "disableAddNotes": true
+      },
+      "Tetanus2": {
+        "disableAddNotes": true
+      },
+      "Tetanus3": {
+        "disableAddNotes": true
+      },
+      "Tetanus4": {
+        "disableAddNotes": true
+      },
+      "Tetanus5": {
+        "disableAddNotes": true
+      },
+      "BCG": {
+        "disableAddNotes": true
+      },
+      "Polio1, Date Given": {
+        "disableAddNotes": true
+      },
+      "Polio2, Date Given": {
+        "disableAddNotes": true
+      },
+      "Polio3, Date Given": {
+        "disableAddNotes": true
+      },
+      "DTP-Hep-Hip1, Date Given": {
+        "disableAddNotes": true
+      },
+      "DTP-Hep-Hip2, Date Given": {
+        "disableAddNotes": true
+      },
+      "DTP-Hep-Hip3, Date Given": {
+        "disableAddNotes": true
+      },
+      "PCV1, Date Given": {
+        "disableAddNotes": true
+      },
+      "PCV2, Date Given": {
+        "disableAddNotes": true
+      },
+      "PCV3, Date Given": {
+        "disableAddNotes": true
+      },
+      "MR1, Date Given": {
+        "disableAddNotes": true
+      },
+      "JE, Date Given": {
+        "disableAddNotes": true
+      },
+      "MR***, Date Given": {
+        "disableAddNotes": true
+      },
+      "Tetanus1, Date Given": {
+        "disableAddNotes": true
+      },
+      "Tetanus2, Date Given": {
+        "disableAddNotes": true
+      },
+      "Tetanus3, Date Given": {
+        "disableAddNotes": true
+      },
+      "Tetanus4, Date Given": {
+        "disableAddNotes": true
+      },
+      "Tetanus5, Date Given": {
+        "disableAddNotes": true
+      },
+      "BCG, Date Given": {
+        "disableAddNotes": true
+      },
+      "HepB at birth": {
+        "disableAddNotes": true
+      },
+      "HepB at birth, time administered after birth": {
+        "disableAddNotes": true
+      },
+      "Medications": {
+        "disableAddNotes": true
+      },
+      "Has Allergies": {
+        "disableAddNotes": true
+      },
+      "Muscle strength": {
+        "hideAbnormalButton": false,
+        "disableAddNotes": true
+      },
+      "Deep Tendon Reflex": {
+        "hideAbnormalButton": false,
+        "disableAddNotes": true
+      },
+      "Other Physical Abnormalities": {
+        "disableAddNotes": true
+      },
+      "Is Small Dental Surgery Performed": {
+        "disableAddNotes": true
+      },
+      "Coded Small Dental Surgery Performed": {
+        "multiSelect": true,
+        "disableAddNotes": true
+      },
+      "Other Small Dental Surgery": {
+        "disableAddNotes": true
+      },
+      "Scaling": {
+        "disableAddNotes": true
+      },
+      "Prevention Education": {
+        "disableAddNotes": true
+      },
+      "Prevention Fluoride": {
+        "disableAddNotes": true
+      },
+      "ANC Referral Reason": {
+        "disableAddNotes": true,
+        "multiSelect": true
+      },
+      "ANC_Symptoms": {
+        "disableAddNotes": true,
+        "multiSelect": true
+      },
+      "ANC Visit Number": {
+        "disableAddNotes": true
+      },
+      "Gestation": {
+        "disableAddNotes": true
+      },
+      "WEIGHT": {
+        "disableAddNotes": true
+      },
+      "HEIGHT": {
+        "disableAddNotes": true
+      },
+      "Pulse": {
+        "disableAddNotes": true
+      },
+      "Fetal Pulse": {
+        "disableAddNotes": true
+      },
+      "Height Of Uterus": {
+        "disableAddNotes": true
+      },
+      "Stomach_Diameter": {
+        "disableAddNotes": true
+      },
+      "Presenting Part": {
+        "disableAddNotes": true
+      },
+      "Education Topic": {
+        "disableAddNotes": true,
+        "multiSelect": true
+      },
+      "Followup Appointment Date": {
+        "disableAddNotes": true,
+        "allowFutureDates": true
+      },
+      "Pregnancy Number": {
+        "disableAddNotes": true
+      },
+      "Living Children": {
+        "disableAddNotes": true
+      },
+      "Abortions": {
+        "disableAddNotes": true
+      },
+      "Date of Last Delivery": {
+        "disableAddNotes": true
+      },
+      "Newborn Survived": {
+        "disableAddNotes": true
+      },
+      "Date of Last Menstrual Period": {
+        "disableAddNotes": true
+      },
+      "Expected Due Date": {
+        "disableAddNotes": true,
+        "allowFutureDates": true
+      },
+      "Problems During Last Pregnancy": {
+        "disableAddNotes": true,
+        "multiSelect": true
+      },
+      "Problems During Last Delivery": {
+        "disableAddNotes": true
+      },
+      "Previous Caesarean Section": {
+        "disableAddNotes": true
+      },
+      "Acceptor": {
+        "disableAddNotes": true,
+        "multiSelect": true
+      },
+      "Stopped Contraception": {
+        "disableAddNotes": true
+      },
+      "Contraceptives Past": {
+        "disableAddNotes": true,
+        "multiSelect": true
+      },
+      "Contraceptives Present": {
+        "disableAddNotes": true,
+        "multiSelect": true
+      },
+      "Contraceptives Received": {
+        "disableAddNotes": true,
+        "multiSelect": true
+      },
+      "Contraceptive Education": {
+        "disableAddNotes": true,
+        "multiSelect": true
+      },
+      "LEU": {
+        "disableAddNotes": true
+      },
+      "NIT": {
+        "disableAddNotes": true
+      },
+      "URO": {
+        "disableAddNotes": true
+      },
+      "PRO": {
+        "disableAddNotes": true
+      },
+      "pH": {
+        "disableAddNotes": true
+      },
+      "BLO": {
+        "disableAddNotes": true
+      },
+      "SG": {
+        "disableAddNotes": true
+      },
+      "KET": {
+        "disableAddNotes": true
+      },
+      "BIL": {
+        "disableAddNotes": true
+      },
+      "GLU": {
+        "disableAddNotes": true
+      },
+      "ASC": {
+        "disableAddNotes": true
+      },
+      "Fasting Blood Glucose": {
+        "disableAddNotes": true
+      },
+      "PP Blood Glucose": {
+        "disableAddNotes": true
+      },
+      "Malaria Rapid Test": {
+        "disableAddNotes": true
+      },
+      "Date of Delivery": {
+        "disableAddNotes": true
+      },
+      "Newborn Sex": {
+        "disableAddNotes": true
+      },
+      "Newborn Weight": {
+        "disableAddNotes": true
+      },
+      "PNC Problems During Delivery": {
+        "multiSelect": true,
+        "disableAddNotes": true
+      },
+      "PNC First Visit": {
+        "disableAddNotes": true
+      },
+      "Maternal Care": {
+        "multiSelect": true,
+        "disableAddNotes": true
+      },
+      "Neonatal Care": {
+        "multiSelect": true,
+        "disableAddNotes": true
+      },
+      "Counselling": {
+        "multiSelect": true,
+        "disableAddNotes": true
+      },
+      "PNC Next Appointment": {
+        "disableAddNotes": true,
+        "allowFutureDates": true
+      },
+      "defaults": {}
+    },
+    "visitPage": {
+      "observationDisplay": {
+        "conceptNames": []
+      }
+    }
+  }
+}
