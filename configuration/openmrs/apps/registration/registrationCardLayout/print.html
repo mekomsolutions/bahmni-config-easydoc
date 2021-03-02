@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="/bahmni_config/openmrs/apps/registration/registrationCardLayout/css/print.css"/>
 <div>
 <div style="width:100%;height:20mm; text-align: center">
-    <p> 
-        <img style="float: right; width: 47mm; height: 20mm; position: relative; right: 4%;" src="/bahmni_config/openmrs/apps/registration/registrationCardLayout/images/hsc-rect-logo.png" alt="" />
+    <p>
+        <img style="float: right; width: 47mm; height: 20mm; position: relative; right: 4%;" src="/bahmni_config/openmrs/apps/registration/registrationCardLayout/images/easydoc_logo.png" alt="" />
         <div style="float: left; width: 35mm; height: 20mm;" ng-if="patient.primaryIdentifier.identifier" > <img id="barcode"
             jsbarcode-value="{{patient.primaryIdentifier.identifier}}"
             jsbarcode-width="1"
@@ -30,7 +30,7 @@
         <span ng-if="patient.address.stateProvince">{{patient.address.stateProvince}},</span>
         <span ng-if="patient.address.country">{{patient.address.country}}</span> <br>
         <strong>Téléphone:</strong> {{patient.phoneNumber}}
-    </p>    
+    </p>
 </div>
 </div>
 
