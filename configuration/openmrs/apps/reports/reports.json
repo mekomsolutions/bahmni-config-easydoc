@@ -29,26 +29,75 @@
   },
   "chiefComplaintReport": {
     "name": "Chief Complaint Report",
-    "type": "obsCount",
+    "type": "aggregation",
     "requiredPrivilege": "app:reports",
     "config": {
-      "conceptNames": [
-        "Chief Complaint"
+      "report": {
+        "type": "observations",
+        "config": {
+          "conceptNamesToFilter": [
+            "Chief Complaint"
+          ],
+          "showVisitInfo": true,
+          "forDataAnalysis": true,
+          "visitAttributes": [
+            "Visit Status",
+            "Admission Status"
+          ],
+          "visitTypesToFilter": [
+            "Urgences",
+            "Ambulatoire",
+            "Hospitalisation"
+          ]
+        }
+      },
+      "rowGroups": [
+        "Visit type"
       ],
-      "countOnlyClosedVisits": "false"
+      "columnGroups": [
+        "Concept Name",
+        "Gender"
+      ],
+      "distinctGroups": [
+        "Patient Identifier"
+      ]
     }
   },
   "bloodPressure": {
     "name": "Blood Pressure",
-    "type": "obsCount",
+    "type": "aggregation",
     "requiredPrivilege": "app:reports",
     "config": {
-      "conceptNames": [
-        "Systolic Blood Pressure",
-        "Diastolic Blood Pressure"
+      "report": {
+        "type": "observations",
+        "config": {
+          "conceptNamesToFilter": [
+            "Systolic Blood Pressure",
+            "Diastolic Blood Pressure"
+          ],
+          "showVisitInfo": true,
+          "forDataAnalysis": true,
+          "visitAttributes": [
+            "Visit Status",
+            "Admission Status"
+          ],
+          "visitTypesToFilter": [
+            "Urgences",
+            "Ambulatoire",
+            "Hospitalisation"
+          ]
+        }
+      },
+      "rowGroups": [
+        "Visit type"
       ],
-      "countOnlyClosedVisits": "false",
-      "countOncePerPatient": "false"
+      "columnGroups": [
+        "Concept Name",
+        "Gender"
+      ],
+      "distinctGroups": [
+        "Patient Identifier"
+      ]
     }
   },
   "patientReport": {
