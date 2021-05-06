@@ -47,7 +47,7 @@
             {
               "minFrequency": 5,
               "maxFrequency": null,
-              "defaultDurationUnit": "Hour(s)"
+              "defaultDurationUnit": "Day(s)"
             },
             {
               "minFrequency": "1/7",

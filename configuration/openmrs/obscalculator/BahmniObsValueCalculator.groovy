@@ -28,14 +28,14 @@ public class BahmniObsValueCalculator implements ObsValueCalculator {
     static Map<BahmniObservation, BahmniObservation> obsParentMap = new HashMap<BahmniObservation, BahmniObservation>();
 
     public static enum BmiStatus {
-        VERY_SEVERELY_UNDERWEIGHT("Very Severely Underweight"),
-        SEVERELY_UNDERWEIGHT("Severely Underweight"),
-        UNDERWEIGHT("Underweight"),
+        VERY_SEVERELY_UNDERWEIGHT("Maigreur très sévère"),
+        SEVERELY_UNDERWEIGHT("Maigreur sévère"),
+        UNDERWEIGHT("Maigreur"),
         NORMAL("Normal"),
-        OVERWEIGHT("Overweight"),
-        OBESE("Obese"),
-        SEVERELY_OBESE("Severely Obese"),
-        VERY_SEVERELY_OBESE("Very Severely Obese");
+        OVERWEIGHT("Surpoids"),
+        OBESE("Obèse"),
+        SEVERELY_OBESE("Obésité sevère"),
+        VERY_SEVERELY_OBESE("Obésité morbide ou massive");
 
         private String status;
 
@@ -58,10 +58,10 @@ public class BahmniObsValueCalculator implements ObsValueCalculator {
         Collection<BahmniObservation> observations = bahmniEncounterTransaction.getObservations()
         def nowAsOfEncounter = bahmniEncounterTransaction.getEncounterDateTime() != null ? bahmniEncounterTransaction.getEncounterDateTime() : new Date();
 
-        BahmniObservation heightObservation = find("Height", observations, null)
-        BahmniObservation weightObservation = find("Weight", observations, null)
+        BahmniObservation heightObservation = find("Height", observations, null) ? find("Height", observations, null) : find("Taille", observations, null)
+        BahmniObservation weightObservation = find("Weight", observations, null) ? find("Weight", observations, null) : find("Poids", observations, null)
         BahmniObservation parent = null;
-
+                               
         if (hasValue(heightObservation) || hasValue(weightObservation)) {
             def heightObs = null, weightObs = null;
             Encounter encounter = Context.getEncounterService().getEncounterByUuid(bahmniEncounterTransaction.getEncounterUuid());
@@ -69,15 +69,14 @@ public class BahmniObsValueCalculator implements ObsValueCalculator {
                 Set<Obs> latestObsOfEncounter = encounter.getObsAtTopLevel(true);
                 latestObsOfEncounter.each { Obs latestObs ->
                     for (Obs groupMember : latestObs.groupMembers) {
-                        heightObs = heightObs ? heightObs : (groupMember.concept.getName().name.equalsIgnoreCase("HEIGHT") ? groupMember : null);
-                        weightObs = weightObs ? weightObs : (groupMember.concept.getName().name.equalsIgnoreCase("WEIGHT") ? groupMember : null);
+                        heightObs = heightObs ? heightObs : (groupMember.concept.getName().name.equalsIgnoreCase("Height") ? groupMember : null);
+                        weightObs = weightObs ? weightObs : (groupMember.concept.getName().name.equalsIgnoreCase("Weight") ? groupMember : null);
                     }
                 }
                 if (isSameObs(heightObservation, heightObs) && isSameObs(weightObservation, weightObs)) {
                     return;
                 }
             }
-
 
             BahmniObservation bmiDataObservation = find("BMI Data", observations, null)
             BahmniObservation bmiObservation = find("BMI", bmiDataObservation ? [bmiDataObservation] : [], null)
@@ -93,7 +92,7 @@ public class BahmniObsValueCalculator implements ObsValueCalculator {
             parent = obsParent(heightObservation, parent)
             parent = obsParent(weightObservation, parent)
 
-            if ((heightObservation && heightObservation.voided) && (weightObservation && weightObservation.voided)) {
+            if ((heightObservation && heightObservation.voided) && (weightObservation && weightObservation.voided)) {                                              
                 voidObs(bmiDataObservation);
                 voidObs(bmiObservation);
                 voidObs(bmiStatusDataObservation);
