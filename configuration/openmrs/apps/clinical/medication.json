@@ -1,161 +1,161 @@
 {
-    "commonConfig": {},
-    "tabConfig": {
-      "allMedicationTabConfig": {
-        "inputOptionsConfig": {
-          "defaultDurationUnit": "Day(s)",
-          "hideOrderSet": false,
-          "defaultInstructions": "As directed",
-          "labels": {
-            "asNeeded": "MEDICATION_AS_NEEDED",
-            "asNeededButton": "MEDICATION_AS_NEEDED_BUTTON_PLACEHOLDER",
-            "asNeededButtonAccessKey": "MEDICATION_AS_NEEDED_ACCESS_KEY"
+  "commonConfig": {},
+  "tabConfig": {
+    "allMedicationTabConfig": {
+      "inputOptionsConfig": {
+        "defaultDurationUnit": "Day(s)",
+        "hideOrderSet": false,
+        "defaultInstructions": "As directed",
+        "labels": {
+          "asNeeded": "MEDICATION_AS_NEEDED",
+          "asNeededButton": "MEDICATION_AS_NEEDED_BUTTON_PLACEHOLDER",
+          "asNeededButtonAccessKey": "MEDICATION_AS_NEEDED_ACCESS_KEY"
+        },
+        "routesToMakeDoseSectionNonMandatory": [
+          "Oral",
+          "Topical",
+          "Inhaler",
+          "Intramuscular",
+          "Intravenous",
+          "Intravaginal",
+          "Ophthalmic",
+          "Otic",
+          "See comments"
+        ],
+        "frequencies": [
+          "Q1H",
+          "Q2H",
+          "Q3H",
+          "Q4H",
+          "Q5H",
+          "5 times/Day",
+          "Q6H",
+          "Q8H",
+          "Q12H",
+          "Daily",
+          "Nightly",
+          "Q48H",
+          "Weekly",
+          "Twice/Week",
+          "Thrice/Week",
+          "Once Every 2 Weeks",
+          "Once Every 3 Weeks",
+          "Monthly",
+          "See comments"
+        ],
+        "frequencyDefaultDurationUnitsMap": [
+          {
+            "minFrequency": 5,
+            "maxFrequency": null,
+            "defaultDurationUnit": "Day(s)"
           },
-          "routesToMakeDoseSectionNonMandatory": [
-            "Oral",
-            "Topical",
-            "Inhaler",
-            "Intramuscular",
-            "Intravenous",
-            "Intravaginal",
-            "Ophthalmic",
-            "Otic",
-            "See comments"
-          ],
-          "frequencies": [
-            "Q1H",
-            "Q2H",
-            "Q3H",
-            "Q4H",
-            "Q5H",
-            "5 times/Day",
-            "Q6H",
-            "Q8H",
-            "Q12H",
-            "Daily",
-            "Nightly",
-            "Q48H",
-            "Weekly",
-            "Twice/Week",
-            "Thrice/Week",
-            "Once Every 2 Weeks",
-            "Once Every 3 Weeks",
-            "Monthly",
-            "See comments"
-          ],
-          "frequencyDefaultDurationUnitsMap": [
-            {
-              "minFrequency": 5,
-              "maxFrequency": null,
-              "defaultDurationUnit": "Day(s)"
-            },
-            {
-              "minFrequency": "1/7",
-              "maxFrequency": 5,
-              "defaultDurationUnit": "Day(s)"
-            },
-            {
-              "minFrequency": "1/30",
-              "maxFrequency": "1/7",
-              "defaultDurationUnit": "Week(s)"
-            },
-            {
-              "minFrequency": null,
-              "maxFrequency": "1/30",
-              "defaultDurationUnit": "Month(s)"
-            }
-          ],
-          "drugFormDefaults": {
-            "Ayurvedic": {
-              "doseUnits": "Teaspoon",
-              "route": "Oral"
-            },
-            "Capsule": {
-              "doseUnits": "Capsule(s)",
-              "route": "Oral"
-            },
-            "Cream": {
-              "doseUnits": "Application",
-              "route": "Topical"
-            },
-            "Drops": {
-              "doseUnits": "Drop(s)",
-              "route": "Ophthalmic"
-            },
-            "Food Supplement": {
-              "doseUnits": "Unit(s)",
-              "route": "Oral"
-            },
-            "Sublingual": {
-              "doseUnits": "Tablet(s)",
-              "route": "Oral"
-            },
-            "Inhalable": {
-              "doseUnits": "Puff(s)",
-              "route": "Inhalation"
-            },
-            "Injectable": {
-              "doseUnits": "mg",
-              "route": "Intravenous"
-            },
-            "Lotion": {
-              "doseUnits": "Application",
-              "route": "Topical"
-            },
-            "Pessary": {
-              "doseUnits": "Unit(s)",
-              "route": "Intravaginal"
-            },
-            "Powder": {
-              "doseUnits": "mg",
-              "route": "Topical"
-            },
-            "Solution": {
-              "doseUnits": "ml",
-              "route": "Intravenous"
-            },
-            "Spray": {
-              "doseUnits": "Puff(s)",
-              "route": "Inhalation"
-            },
-            "Syrup/Suspension": {
-              "doseUnits": "ml",
-              "route": "Oral"
-            },
-            "Syrup": {
-              "doseUnits": "ml",
-              "route": "Oral"
-            },
-            "Tablet": {
-              "doseUnits": "Tablet(s)",
-              "route": "Oral"
-            },
-            "Unit": {
-              "doseUnits": "Unit(s)",
-              "route": "See comments"
-            },
-            "Oral Solution": {
-              "doseUnits": "ml",
-              "route": "Oral"
-            },
-            "Drinkable Suspension Gel": {
-              "doseUnits": "ml",
-              "route": "Oral"
-            },
-            "Oil": {
-              "doseUnits": "Application",
-              "route": "Topical"
-            },
-            "Pomade": {
-              "doseUnits": "Application",
-              "route": "Topical"
-            },
-            "Suppository": {
-              "doseUnits": "Unit(s)",
-              "route": "Rectal"
-            }
+          {
+            "minFrequency": "1/7",
+            "maxFrequency": 5,
+            "defaultDurationUnit": "Day(s)"
+          },
+          {
+            "minFrequency": "1/30",
+            "maxFrequency": "1/7",
+            "defaultDurationUnit": "Week(s)"
+          },
+          {
+            "minFrequency": null,
+            "maxFrequency": "1/30",
+            "defaultDurationUnit": "Month(s)"
+          }
+        ],
+        "drugFormDefaults": {
+          "Ayurvedic": {
+            "doseUnits": "Teaspoon",
+            "route": "Oral"
+          },
+          "Capsule": {
+            "doseUnits": "Capsule(s)",
+            "route": "Oral"
+          },
+          "Cream": {
+            "doseUnits": "Application",
+            "route": "Topical"
+          },
+          "Drops": {
+            "doseUnits": "Drop(s)",
+            "route": "Ophthalmic"
+          },
+          "Food Supplement": {
+            "doseUnits": "Unit(s)",
+            "route": "Oral"
+          },
+          "Sublingual": {
+            "doseUnits": "Tablet(s)",
+            "route": "Oral"
+          },
+          "Inhalable": {
+            "doseUnits": "Puff(s)",
+            "route": "Inhalation"
+          },
+          "Injectable": {
+            "doseUnits": "mg",
+            "route": "Intravenous"
+          },
+          "Lotion": {
+            "doseUnits": "Application",
+            "route": "Topical"
+          },
+          "Pessary": {
+            "doseUnits": "mg",
+            "route": "Intravaginal"
+          },
+          "Powder": {
+            "doseUnits": "mg",
+            "route": "Topical"
+          },
+          "Solution": {
+            "doseUnits": "ml",
+            "route": "Intravenous"
+          },
+          "Spray": {
+            "doseUnits": "Puff(s)",
+            "route": "Inhalation"
+          },
+          "Syrup/Suspension": {
+            "doseUnits": "ml",
+            "route": "Oral"
+          },
+          "Syrup": {
+            "doseUnits": "ml",
+            "route": "Oral"
+          },
+          "Tablet": {
+            "doseUnits": "Tablet(s)",
+            "route": "Oral"
+          },
+          "Unit": {
+            "doseUnits": "Unit(s)",
+            "route": "See comments"
+          },
+          "Oral Solution": {
+            "doseUnits": "ml",
+            "route": "Oral"
+          },
+          "Drinkable Suspension Gel": {
+            "doseUnits": "ml",
+            "route": "Oral"
+          },
+          "Oil": {
+            "doseUnits": "Application",
+            "route": "Topical"
+          },
+          "Pomade": {
+            "doseUnits": "Application",
+            "route": "Topical"
+          },
+          "Suppository": {
+            "doseUnits": "mg",
+            "route": "Rectal"
           }
         }
       }
     }
   }
+}
