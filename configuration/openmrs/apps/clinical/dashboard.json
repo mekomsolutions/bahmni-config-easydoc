@@ -145,6 +145,14 @@
         },
         "translationKey": "DASHBOARD_TITLE_LAB_RESULTS_KEY"
       },
+      "patientAppointments": {
+        "type": "custom",
+        "displayOrder": 10,
+        "config": {
+            "title": "DASHBOARD_TITLE_APPOINTMENTS_KEY",
+            "template": "<patient-appointments-dashboard section='config' patient='patient'></patient-appointments-dashboard>"
+        }
+      },
       "labOrders": {
         "translationKey": "DASHBOARD_TITLE_LAB_ORDERS_DISPLAY_CONTROL_KEY",
         "type": "ordersControl",

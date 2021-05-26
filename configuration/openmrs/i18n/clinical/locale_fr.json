@@ -405,6 +405,9 @@
   "MEDICATION_STOP": "Arrêter",
   "MEDICATION_REFILL": "Renouveller",
 
+  "MEDICATION_NEW_PRESCRIPTION": "Nouvelle Prescription",
+
+  
   "DASHBOARD_TITLE_APPOINTMENTS_KEY": "Rendez-vous",
   "DASHBOARD_APPOINTMENTS_SLOT_KEY": "Fente",
   "DASHBOARD_APPOINTMENTS_SERVICE_KEY": "Un service",
