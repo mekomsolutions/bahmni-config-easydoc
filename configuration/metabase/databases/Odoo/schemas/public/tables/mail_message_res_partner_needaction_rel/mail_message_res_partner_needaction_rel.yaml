@@ -1,0 +1,12 @@
+points_of_interest: null
+visibility_type: null
+schema: public
+show_in_getting_started: false
+name: mail_message_res_partner_needaction_rel
+entity_name: null
+display_name: Mail Message Res Partner Need Action Rel
+caveats: null
+active: true
+entity_type: entity/GenericTable
+field_order: database
+description: Message Notifications

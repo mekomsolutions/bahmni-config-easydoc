@@ -1,0 +1,12 @@
+points_of_interest: null
+visibility_type: null
+schema: public
+show_in_getting_started: false
+name: product_price_history
+entity_name: null
+display_name: Product Price History
+caveats: null
+active: true
+entity_type: entity/ProductTable
+field_order: database
+description: product.price.history

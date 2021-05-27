@@ -1,0 +1,12 @@
+points_of_interest: null
+visibility_type: null
+schema: public
+show_in_getting_started: false
+name: mail_channel_res_groups_rel
+entity_name: null
+display_name: Mail Channel Res Groups Rel
+caveats: null
+active: true
+entity_type: entity/GenericTable
+field_order: database
+description: RELATION BETWEEN mail_channel AND res_groups

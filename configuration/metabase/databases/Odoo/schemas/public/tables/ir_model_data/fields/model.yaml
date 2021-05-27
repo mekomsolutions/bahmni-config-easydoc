@@ -1,0 +1,112 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - account.account
+  - account.account.tag
+  - account.account.template
+  - account.account.type
+  - account.chart.template
+  - account.financial.report
+  - account.journal
+  - account.payment.method
+  - account.payment.term
+  - account.tax
+  - account.tax.group
+  - account.tax.template
+  - barcode.nomenclature
+  - barcode.rule
+  - crm.team
+  - decimal.precision
+  - ir.actions.act_url
+  - ir.actions.act_window
+  - ir.actions.act_window.view
+  - ir.actions.client
+  - ir.actions.report.xml
+  - ir.actions.server
+  - ir.actions.todo
+  - ir.config_parameter
+  - ir.cron
+  - ir.filters
+  - ir.mail_server
+  - ir.model
+  - ir.model.access
+  - ir.model.fields
+  - ir.module.category
+  - ir.module.module
+  - ir.property
+  - ir.rule
+  - ir.sequence
+  - ir.ui.menu
+  - ir.ui.view
+  - ir.values
+  - mail.alias
+  - mail.channel
+  - mail.message
+  - mail.message.subtype
+  - mail.shortcode
+  - mail.template
+  - order.type
+  - order.type.shop.map
+  - payment.acquirer
+  - pos.config
+  - product.category
+  - product.pricelist
+  - product.product
+  - product.removal
+  - product.template
+  - product.uom
+  - product.uom.categ
+  - report.paperformat
+  - res.bank
+  - res.company
+  - res.country
+  - res.country.group
+  - res.country.state
+  - res.currency
+  - res.font
+  - res.groups
+  - res.lang
+  - res.partner
+  - res.partner.title
+  - res.request.link
+  - res.users
+  - sale.layout_category
+  - sale.shop
+  - stock.incoterms
+  - stock.location
+  - stock.location.route
+  - stock.picking.type
+  - stock.warehouse
+  - syncable.units.mapping
+  - web.planner
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 68
+    nil%: 0.0
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 14.2068
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: null
+position: 10
+fingerprint_version: 5
+name: model
+database_position: 10
+has_field_values: auto-list
+display_name: Model
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: null
+fk_target_field_id: null

@@ -1,0 +1,12 @@
+points_of_interest: null
+visibility_type: null
+schema: public
+show_in_getting_started: false
+name: base_module_configuration
+entity_name: null
+display_name: Base Module Configuration
+caveats: null
+active: true
+entity_type: entity/GenericTable
+field_order: database
+description: base.module.configuration

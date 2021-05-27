@@ -1,0 +1,12 @@
+points_of_interest: null
+visibility_type: null
+schema: public
+show_in_getting_started: false
+name: account_tax_account_tag
+entity_name: null
+display_name: Account Tax Account Tag
+caveats: null
+active: true
+entity_type: entity/UserTable
+field_order: database
+description: RELATION BETWEEN account_tax AND account_account_tag

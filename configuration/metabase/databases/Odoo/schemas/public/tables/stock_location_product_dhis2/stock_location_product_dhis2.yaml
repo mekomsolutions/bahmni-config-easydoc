@@ -1,0 +1,12 @@
+points_of_interest: null
+visibility_type: null
+schema: public
+show_in_getting_started: false
+name: stock_location_product_dhis2
+entity_name: null
+display_name: Stock Location Product Dh Is2
+caveats: null
+active: true
+entity_type: entity/GenericTable
+field_order: database
+description: DHIS2 Export product stock at location

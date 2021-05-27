@@ -1,0 +1,47 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - '{''group_by'': [''category_id''], ''col_group_by'': [''date_order:month''], ''measures'':
+    [''unit_quantity'']}'
+  - '{''group_by'': [''date'', ''session_id''], ''measures'': [''price_total'']}'
+  - '{''group_by'': [''date:month'', ''categ_id''], ''residual_invisible'':True}'
+  - '{''group_by'': [''date:month'', ''country_id'']}'
+  - '{''group_by'': [''date:month'', ''product_id''], ''set_visible'':True, ''residual_invisible'':True}'
+  - '{''group_by'': [''date:month'', ''product_id'']}'
+  - '{''group_by'': [''date:month'', ''team_id'']}'
+  - '{''group_by'': [''date:month'', ''user_id'']}'
+  - '{''group_by'': [''partner_id''], ''col_group_by'': [''product_id''], ''measures'':
+    [''price_average'']}'
+  - '{''group_by'': [''partner_id''], ''measures'': [''delay_pass'']}'
+  - '{''group_by'': [''state''], ''measures'': [''price_subtotal'']}'
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 11
+    nil%: 0.0
+  type:
+    type/Text:
+      percent-json: 1.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 58.53846153846154
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/SerializedJSON
+position: 10
+fingerprint_version: 5
+name: context
+database_position: 10
+has_field_values: auto-list
+display_name: Context
+parent_id: null
+caveats: null
+active: true
+database_type: text
+description: Context
+fk_target_field_id: null

@@ -1,0 +1,86 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - A warning can be set on a partner (Account)
+  - A warning can be set on a partner (Stock)
+  - A warning can be set on a product or a customer (Purchase)
+  - A warning can be set on a product or a customer (Sale)
+  - Access Rights
+  - Access to Private Addresses
+  - Accountant
+  - Addresses in Sales Orders
+  - Adviser
+  - Allow default quantity to set as -1
+  - Allow to set Chargeable amount for Sales Order
+  - Analytic Accounting
+  - Analytic Accounting for Purchases
+  - Analytic Accounting for Sales
+  - Billing
+  - Contact Creation
+  - Discount on lines
+  - Display incoterms on Sales Order and related invoices
+  - Employee
+  - Enable Route on Sales Order Line
+  - Enable default drug Quantity as -1
+  - Manage Different Stock Owners
+  - Manage Inventory Valuation and Costing Methods
+  - Manage Lots / Serial Numbers
+  - Manage Multiple Units of Measure
+  - Manage Packages
+  - Manage Pricelist Items
+  - Manage Product Packaging
+  - Manage Product Variants
+  - Manage Properties of Product
+  - Manage Push and Pull inventory flows
+  - Manage Vendor Price
+  - Manage multiple stock_locations
+  - Manage multiple warehouses
+  - Manager
+  - Multi Companies
+  - Multi Currencies
+  - Personalize sale order and invoice report
+  - Portal
+  - Pricelists On Product
+  - Pro-forma Invoices
+  - Properties on lines
+  - Public
+  - Sales Pricelists
+  - Settings
+  - Skip Invoice Options
+  - Tax display B2B
+  - Tax display B2C
+  - Technical Features
+  - User
+  - 'User: All Documents'
+  - 'User: Own Documents Only'
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 52
+    nil%: 0.0
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 22.50877192982456
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Name
+position: 1
+fingerprint_version: 5
+name: name
+database_position: 1
+has_field_values: auto-list
+display_name: Name
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: null
+fk_target_field_id: null

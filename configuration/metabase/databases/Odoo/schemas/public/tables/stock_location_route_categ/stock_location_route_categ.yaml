@@ -1,0 +1,12 @@
+points_of_interest: null
+visibility_type: null
+schema: public
+show_in_getting_started: false
+name: stock_location_route_categ
+entity_name: null
+display_name: Stock Location Route Cat Eg
+caveats: null
+active: true
+entity_type: entity/GenericTable
+field_order: database
+description: RELATION BETWEEN product_category AND stock_location_route

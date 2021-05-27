@@ -1,0 +1,46 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - |-
+    Portal members have specific access rights (such as record rules and restricted menus).
+                    They usually do not belong to the usual Odoo groups.
+  - |-
+    Public users have specific access rights (such as record rules and restricted menus).
+                    They usually do not belong to the usual Odoo groups.
+  - Show line subtotals with taxes included (B2C)
+  - Show line subtotals without taxes (B2B)
+  - the user will have access to all records of everyone in the sales application.
+  - the user will have access to his own data in the sales application.
+  - the user will have an access to the sales configuration as well as statistic reports.
+  - null
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 8
+    nil%: 0.8771929824561404
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 10.947368421052632
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Comment
+position: 2
+fingerprint_version: 5
+name: comment
+database_position: 2
+has_field_values: auto-list
+display_name: Comment
+parent_id: null
+caveats: null
+active: true
+database_type: text
+description: Comment
+fk_target_field_id: null

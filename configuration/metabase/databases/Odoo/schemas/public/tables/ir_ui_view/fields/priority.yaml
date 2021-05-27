@@ -1,0 +1,55 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 12
+  - 15
+  - 16
+  - 17
+  - 18
+  - 20
+  - 22
+  - 25
+  - 36
+  - 300
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 20
+    nil%: 0.0
+  type:
+    type/Number:
+      min: 1.0
+      q1: 15.623675230258863
+      q3: 16.2918639794498
+      max: 300.0
+      sd: 10.312295392672802
+      avg: 15.753325272067716
+visibility_type: normal
+base_type: type/Integer
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Category
+position: 7
+fingerprint_version: 5
+name: priority
+database_position: 7
+has_field_values: auto-list
+display_name: Priority
+parent_id: null
+caveats: null
+active: true
+database_type: int4
+description: Sequence
+fk_target_field_id: null

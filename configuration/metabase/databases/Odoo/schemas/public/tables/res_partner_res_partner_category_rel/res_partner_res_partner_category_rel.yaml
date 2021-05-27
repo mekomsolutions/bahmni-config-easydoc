@@ -1,0 +1,12 @@
+points_of_interest: null
+visibility_type: null
+schema: public
+show_in_getting_started: false
+name: res_partner_res_partner_category_rel
+entity_name: null
+display_name: Res Partner Res Partner Category Rel
+caveats: null
+active: true
+entity_type: entity/GenericTable
+field_order: database
+description: RELATION BETWEEN res_partner_category AND res_partner

@@ -1,0 +1,12 @@
+points_of_interest: null
+visibility_type: null
+schema: public
+show_in_getting_started: false
+name: order_type_shop_map
+entity_name: null
+display_name: Order Type Shop Map
+caveats: null
+active: true
+entity_type: entity/TransactionTable
+field_order: database
+description: Order Type to Shop Mapping

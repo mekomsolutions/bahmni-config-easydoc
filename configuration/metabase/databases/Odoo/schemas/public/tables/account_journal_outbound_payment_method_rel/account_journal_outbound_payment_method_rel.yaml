@@ -1,0 +1,12 @@
+points_of_interest: null
+visibility_type: null
+schema: public
+show_in_getting_started: false
+name: account_journal_outbound_payment_method_rel
+entity_name: null
+display_name: Account Journal Outbound Payment Method Rel
+caveats: null
+active: true
+entity_type: entity/UserTable
+field_order: database
+description: RELATION BETWEEN account_journal AND account_payment_method

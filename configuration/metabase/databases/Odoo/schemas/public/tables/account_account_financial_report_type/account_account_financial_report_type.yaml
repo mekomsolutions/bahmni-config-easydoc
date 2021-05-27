@@ -1,0 +1,12 @@
+points_of_interest: null
+visibility_type: null
+schema: public
+show_in_getting_started: false
+name: account_account_financial_report_type
+entity_name: null
+display_name: Account Account Financial Report Type
+caveats: null
+active: true
+entity_type: entity/UserTable
+field_order: database
+description: RELATION BETWEEN account_financial_report AND account_account_type

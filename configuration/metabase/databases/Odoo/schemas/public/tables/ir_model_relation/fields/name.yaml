@@ -1,0 +1,122 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - account_account_account_tag
+  - account_account_financial_report
+  - account_account_financial_report_type
+  - account_account_tag_account_tax_template_rel
+  - account_account_tax_default_rel
+  - account_account_template_account_tag
+  - account_account_template_tax_rel
+  - account_account_type_rel
+  - account_aged_trial_balance_account_journal_rel
+  - account_analytic_account_tag_rel
+  - account_analytic_line_tag_rel
+  - account_analytic_tag_account_invoice_line_rel
+  - account_analytic_tag_account_move_line_rel
+  - account_analytic_tag_purchase_order_line_rel
+  - account_analytic_tag_sale_order_line_rel
+  - account_balance_report_journal_rel
+  - account_common_account_report_account_journal_rel
+  - account_common_journal_report_account_journal_rel
+  - account_common_partner_report_account_journal_rel
+  - account_common_report_account_journal_rel
+  - account_fiscal_position_pos_config_rel
+  - account_fiscal_position_res_country_state_rel
+  - account_invoice_account_move_line_rel
+  - account_invoice_line_tax
+  - account_invoice_payment_rel
+  - account_journal_account_print_journal_rel
+  - account_journal_account_report_partner_ledger_rel
+  - account_journal_accounting_report_rel
+  - account_journal_inbound_payment_method_rel
+  - account_journal_outbound_payment_method_rel
+  - account_journal_type_rel
+  - account_move_line_account_tax_rel
+  - account_report_general_ledger_journal_rel
+  - account_tax_account_tag
+  - account_tax_account_voucher_line_rel
+  - account_tax_filiation_rel
+  - account_tax_pos_order_line_rel
+  - account_tax_purchase_order_line_rel
+  - account_tax_sale_advance_payment_inv_rel
+  - account_tax_sale_order_line_rel
+  - account_tax_template_filiation_rel
+  - email_template_attachment_rel
+  - email_template_preview_res_partner_rel
+  - ir_act_window_group_rel
+  - ir_config_parameter_groups_rel
+  - ir_model_fields_group_rel
+  - ir_ui_menu_group_rel
+  - ir_ui_view_group_rel
+  - mail_channel_mail_wizard_invite_rel
+  - mail_channel_partner
+  - mail_channel_res_groups_rel
+  - mail_compose_message_ir_attachments_rel
+  - mail_compose_message_res_partner_rel
+  - mail_followers_mail_message_subtype_rel
+  - mail_mail_res_partner_rel
+  - mail_message_mail_channel_rel
+  - mail_message_res_partner_needaction_rel
+  - mail_message_res_partner_rel
+  - mail_message_res_partner_starred_rel
+  - mail_wizard_invite_res_partner_rel
+  - make_procurement_stock_location_route_rel
+  - message_attachment_rel
+  - pos_config_journal_rel
+  - pos_detail_configs
+  - product_attribute_line_product_attribute_value_rel
+  - product_attribute_value_product_product_rel
+  - product_supplier_taxes_rel
+  - product_taxes_rel
+  - rel_modules_langexport
+  - rel_server_actions
+  - res_company_users_rel
+  - res_country_group_pricelist_rel
+  - res_country_res_country_group_rel
+  - res_groups_action_rel
+  - res_groups_implied_rel
+  - res_groups_report_rel
+  - res_groups_users_rel
+  - res_partner_res_partner_category_rel
+  - rule_group_rel
+  - sale_order_line_invoice_rel
+  - stock_location_route_categ
+  - stock_location_route_move
+  - stock_location_route_procurement
+  - stock_quant_move_rel
+  - stock_route_product
+  - stock_route_warehouse
+  - stock_wh_resupply_table
+  - wkf_witm_trans
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 88
+    nil%: 0.0
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 31.39325842696629
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Name
+position: 5
+fingerprint_version: 5
+name: name
+database_position: 5
+has_field_values: auto-list
+display_name: Name
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: null
+fk_target_field_id: null

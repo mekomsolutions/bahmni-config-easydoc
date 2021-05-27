@@ -1,0 +1,33 @@
+points_of_interest: null
+preview_display: true
+values: {}
+settings: null
+fingerprint:
+  global:
+    distinct-count: 276
+    nil%: 0.0
+  type:
+    type/Number:
+      min: 344.0
+      q1: 1813.4566115702478
+      q3: 7467.288871720915
+      max: 47044.0
+      sd: 5378.2998499143705
+      avg: 5383.010380622837
+visibility_type: normal
+base_type: type/Integer
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: null
+position: 7
+fingerprint_version: 5
+name: file_size
+database_position: 7
+has_field_values: null
+display_name: File Size
+parent_id: null
+caveats: null
+active: true
+database_type: int4
+description: File Size
+fk_target_field_id: null

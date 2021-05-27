@@ -1,0 +1,33 @@
+points_of_interest: null
+preview_display: true
+values: {}
+settings: null
+fingerprint:
+  global:
+    distinct-count: 199
+    nil%: 0.0
+  type:
+    type/Number:
+      min: 0.0
+      q1: 34.0
+      q3: 504.2462112512353
+      max: 998.0
+      sd: 309.7720339100013
+      avg: 310.53543307086613
+visibility_type: normal
+base_type: type/Integer
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: null
+position: 9
+fingerprint_version: 5
+name: phone_code
+database_position: 9
+has_field_values: null
+display_name: Phone Code
+parent_id: null
+caveats: null
+active: true
+database_type: int4
+description: Country Calling Code
+fk_target_field_id: null

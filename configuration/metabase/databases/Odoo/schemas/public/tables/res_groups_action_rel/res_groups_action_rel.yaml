@@ -1,0 +1,12 @@
+points_of_interest: null
+visibility_type: null
+schema: public
+show_in_getting_started: false
+name: res_groups_action_rel
+entity_name: null
+display_name: Res Groups Action Rel
+caveats: null
+active: true
+entity_type: entity/GenericTable
+field_order: database
+description: RELATION BETWEEN ir_actions_todo AND res_groups

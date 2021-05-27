@@ -1,0 +1,37 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - 0
+  - 80
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 2
+    nil%: 0.0
+  type:
+    type/Number:
+      min: 0.0
+      q1: 45.27787284196328
+      q3: 80.0
+      max: 80.0
+      sd: 26.081248053308332
+      avg: 70.36144578313252
+visibility_type: normal
+base_type: type/Integer
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Category
+position: 21
+fingerprint_version: 5
+name: limit
+database_position: 21
+has_field_values: auto-list
+display_name: Limit
+parent_id: null
+caveats: null
+active: true
+database_type: int4
+description: Limit
+fk_target_field_id: null

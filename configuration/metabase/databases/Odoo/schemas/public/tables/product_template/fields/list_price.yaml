@@ -1,0 +1,33 @@
+points_of_interest: null
+preview_display: true
+values: {}
+settings: null
+fingerprint:
+  global:
+    distinct-count: 205
+    nil%: 0.0
+  type:
+    type/Number:
+      min: 1.0
+      q1: 798.9745159560092
+      q3: 3962.425132942999
+      max: 840000.0
+      sd: 21279.76978632834
+      avg: 5771.597994149603
+visibility_type: normal
+base_type: type/Decimal
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: null
+position: 2
+fingerprint_version: 5
+name: list_price
+database_position: 2
+has_field_values: null
+display_name: List Price
+parent_id: null
+caveats: null
+active: true
+database_type: numeric
+description: Sale Price
+fk_target_field_id: null

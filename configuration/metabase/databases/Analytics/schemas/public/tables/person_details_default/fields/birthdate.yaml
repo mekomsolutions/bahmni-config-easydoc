@@ -1,0 +1,29 @@
+points_of_interest: null
+preview_display: true
+values: {}
+settings: null
+fingerprint:
+  global:
+    distinct-count: 2
+    nil%: 0.8
+  type:
+    type/DateTime:
+      earliest: '2018-05-26'
+      latest: '2018-05-26'
+visibility_type: normal
+base_type: type/Date
+last_analyzed: '2021-05-26T17:04:05.299675Z'
+custom_position: 0
+special_type: null
+position: 4
+fingerprint_version: 5
+name: birthdate
+database_position: 4
+has_field_values: null
+display_name: Birthdate
+parent_id: null
+caveats: null
+active: true
+database_type: date
+description: null
+fk_target_field_id: null

@@ -1,0 +1,47 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - account.account,1074
+  - account.account,397
+  - account.account,413
+  - account.account,611
+  - account.account,807
+  - account.journal,6
+  - stock.location,15
+  - stock.location,5
+  - stock.location,6
+  - stock.location,7
+  - stock.location,8
+  - stock.location,9
+  - null
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 13
+    nil%: 0.5
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 9.444444444444445
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Category
+position: 14
+fingerprint_version: 5
+name: value_reference
+database_position: 14
+has_field_values: auto-list
+display_name: Value Reference
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: Value reference
+fk_target_field_id: null

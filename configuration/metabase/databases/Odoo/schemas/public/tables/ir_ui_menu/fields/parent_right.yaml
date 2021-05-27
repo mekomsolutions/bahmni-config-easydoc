@@ -1,0 +1,33 @@
+points_of_interest: null
+preview_display: true
+values: {}
+settings: null
+fingerprint:
+  global:
+    distinct-count: 274
+    nil%: 0.0
+  type:
+    type/Number:
+      min: 1.0
+      q1: 138.89263758690007
+      q3: 413.5170278818932
+      max: 547.0
+      sd: 158.59093067431454
+      avg: 276.2226277372263
+visibility_type: normal
+base_type: type/Integer
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: null
+position: 2
+fingerprint_version: 5
+name: parent_right
+database_position: 2
+has_field_values: null
+display_name: Parent Right
+parent_id: null
+caveats: null
+active: true
+database_type: int4
+description: null
+fk_target_field_id: null

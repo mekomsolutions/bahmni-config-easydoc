@@ -1,0 +1,103 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - |-
+    [
+                    ('state', 'not in', ['draft', 'cancel']),
+                    ('type', '=', 'out_invoice')]
+  - '[(''account_id'',''='', active_id)]'
+  - '[(''acquirer_id'',''='',active_id)]'
+  - '[(''belongs_to_company'', ''='', True)]'
+  - '[(''category_id'',''='',active_id)]'
+  - '[(''config_id'', ''='', active_id)]'
+  - '[(''create_date'', ''>='', time.strftime(''%Y-%m-%d 00:00:00'')),(''create_date'',
+    ''<='', time.strftime(''%Y-%m-%d 23:59:59''))]'
+  - '[(''currency_id'', ''='', active_id)]'
+  - '[(''email_from'', ''!='', False), (''fetchmail_server_id'', ''='', active_id)]'
+  - '[(''employee'',''='',1)]'
+  - '[(''group_id'',''='',active_id)]'
+  - '[(''id'',''='',active_id)]'
+  - '[(''inventory_id'', ''='', active_id)]'
+  - '[(''invoice_status'',''='',''to invoice'')]'
+  - '[(''invoice_status'',''='',''upselling'')]'
+  - '[(''journal_id'', ''='', active_id)]'
+  - '[(''journal_id.type'', ''='', ''bank'')]'
+  - '[(''journal_id.type'', ''='', ''cash'')]'
+  - '[(''journal_id.type'',''='',''purchase''), (''voucher_type'',''='',''purchase'')]'
+  - '[(''journal_id.type'',''='',''sale''), (''voucher_type'',''='',''sale'')]'
+  - '[(''journal_user'',''='', 1)]'
+  - '[(''key'',''='',''action'')]'
+  - '[(''key'',''='',''default'')]'
+  - '[(''location_id'', ''child_of'', active_ids)]'
+  - '[(''orderpoint_id'',''='',active_id)]'
+  - '[(''parent_id'',''='',False)]'
+  - '[(''partner_id'', ''='', False)]'
+  - '[(''partner_type'', ''='', ''customer'')]'
+  - '[(''partner_type'', ''='', ''supplier'')]'
+  - '[(''payment_token_id'',''='', active_id)]'
+  - '[(''picking_id.picking_type_id.code'', ''='', ''incoming''), (''location_id.usage'',
+    ''!='', ''internal''), (''location_dest_id.usage'', ''='', ''internal'')]'
+  - '[(''picking_type_id.code'', ''='', ''outgoing''), (''location_id.usage'', ''='',
+    ''internal''), (''location_dest_id.usage'', ''!='', ''internal'')]'
+  - '[(''product_id'', ''='', active_id)]'
+  - '[(''product_id.id'', ''='', active_id)]'
+  - '[(''product_id.product_tmpl_id'', ''='', active_id)]'
+  - '[(''product_id.product_tmpl_id'',''in'',active_ids), (''state'', ''in'', [''purchase'',
+    ''done''])]'
+  - '[(''product_id.product_tmpl_id.id'', ''='', active_id)]'
+  - '[(''product_ids.product_tmpl_id'', ''='', active_id)]'
+  - '[(''purchase_id'', ''='', active_id)]'
+  - '[(''state'', ''='', ''sale''),(''invoice_status'',''='',''to invoice'')]'
+  - '[(''state'', ''in'', (''draft'', ''sent''))]'
+  - '[(''state'', ''in'', [''sale'', ''done''])]'
+  - '[(''state'', ''not in'', (''draft'', ''sent''))]'
+  - '[(''state'',''='',''draft''),(''team_id'', ''='', active_id)]'
+  - '[(''state'',''='',''draft'')]'
+  - '[(''state'',''='',''exception'')]'
+  - '[(''state'',''='',''posted'')]'
+  - '[(''state'',''in'',(''draft'',''sent'',''cancel'', ''confirmed''))]'
+  - '[(''state'',''not in'',(''draft'',''cancel'')),(''team_id'', ''='', active_id)]'
+  - '[(''state'',''not in'',(''draft'',''sent'', ''confirmed''))]'
+  - '[(''state'',''not in'',(''draft'',''sent'',''cancel''))]'
+  - '[(''supplier'',''<>'',1),(''customer'',''<>'',1)]'
+  - '[(''team_id'', ''='', active_id),(''state'', ''not in'', [''draft'', ''cancel''])]'
+  - '[(''type'', ''='', ''bank'')]'
+  - '[(''type'',''='',''in_invoice'')]'
+  - '[(''type'',''in'', [''out_invoice'', ''out_refund'']), (''state'', ''not in'',
+    [''draft'', ''cancel''])]'
+  - '[(''type'',''in'',(''in_invoice'', ''in_refund'')),(''purchase_id'',''='',active_id)]'
+  - '[(''type'',''in'',(''in_invoice'', ''in_refund''))]'
+  - '[(''type'',''in'',(''out_invoice'', ''out_refund''))]'
+  - '[]'
+  - null
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 61
+    nil%: 0.6807228915662651
+  type:
+    type/Text:
+      percent-json: 0.3192771084337349
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 9.19578313253012
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: null
+position: 9
+fingerprint_version: 5
+name: domain
+database_position: 9
+has_field_values: auto-list
+display_name: Domain
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: Domain Value
+fk_target_field_id: null

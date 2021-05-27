@@ -1,0 +1,53 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - account.payment.customer.invoice
+  - account.payment.customer.refund
+  - account.payment.supplier.invoice
+  - account.payment.supplier.refund
+  - account.payment.transfer
+  - account.reconcile
+  - pos.order
+  - pos.order.line
+  - pos.session
+  - procurement.group
+  - purchase.order
+  - sale.order
+  - stock.lot.serial
+  - stock.lot.tracking
+  - stock.orderpoint
+  - stock.picking
+  - stock.quant.package
+  - stock.scrap
+  - null
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 19
+    nil%: 0.5
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 9.305555555555555
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Category
+position: 2
+fingerprint_version: 5
+name: code
+database_position: 2
+has_field_values: auto-list
+display_name: Code
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: Sequence Code
+fk_target_field_id: null

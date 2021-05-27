@@ -1,0 +1,52 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - Partner Locations
+  - Partner Locations/Customers
+  - Partner Locations/Vendors
+  - Pharmacy
+  - Physical Locations
+  - 'Physical Locations/Hôpital EasyDoc: Transit Location'
+  - Physical Locations/WH
+  - Physical Locations/WH/Input
+  - Physical Locations/WH/Output
+  - Physical Locations/WH/Packing Zone
+  - Physical Locations/WH/Quality Control
+  - Physical Locations/WH/Stock
+  - Virtual Locations
+  - Virtual Locations/Inter Company Transit
+  - Virtual Locations/Inventory adjustment
+  - Virtual Locations/Procurements
+  - Virtual Locations/Production
+  - Virtual Locations/Scrapped
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 18
+    nil%: 0.0
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 27.72222222222222
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Category
+position: 13
+fingerprint_version: 5
+name: complete_name
+database_position: 13
+has_field_values: auto-list
+display_name: Complete Name
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: Full Location Name
+fk_target_field_id: null

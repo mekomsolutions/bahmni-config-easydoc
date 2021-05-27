@@ -1,0 +1,44 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - 10.0.0.1
+  - 10.0.1.0
+  - 10.0.1.0.0
+  - 10.0.1.0.1
+  - 10.0.1.1
+  - 10.0.1.1.0-SNAPSHOT
+  - 10.0.1.2
+  - 10.0.1.3
+  - 10.0.2.0
+  - null
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 10
+    nil%: 0.825503355704698
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 1.4530201342281879
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Category
+position: 11
+fingerprint_version: 5
+name: latest_version
+database_position: 11
+has_field_values: auto-list
+display_name: Latest Version
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: null
+fk_target_field_id: null

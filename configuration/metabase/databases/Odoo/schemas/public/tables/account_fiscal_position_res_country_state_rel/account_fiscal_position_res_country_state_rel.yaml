@@ -1,0 +1,12 @@
+points_of_interest: null
+visibility_type: null
+schema: public
+show_in_getting_started: false
+name: account_fiscal_position_res_country_state_rel
+entity_name: null
+display_name: Account Fiscal Position Res Country State Rel
+caveats: null
+active: true
+entity_type: entity/UserTable
+field_order: database
+description: RELATION BETWEEN account_fiscal_position AND res_country_state

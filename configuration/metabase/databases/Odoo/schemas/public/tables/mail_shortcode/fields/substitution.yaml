@@ -1,0 +1,59 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - <img src='/mail/static/src/img/smiley/beer.png'/>
+  - <img src='/mail/static/src/img/smiley/boar.png'/>
+  - <img src='/mail/static/src/img/smiley/cat.png'/>
+  - <img src='/mail/static/src/img/smiley/confused.png'/>
+  - <img src='/mail/static/src/img/smiley/cookie.png'/>
+  - <img src='/mail/static/src/img/smiley/ghost.png'/>
+  - <img src='/mail/static/src/img/smiley/heart.png'/>
+  - <img src='/mail/static/src/img/smiley/laugh.png'/>
+  - <img src='/mail/static/src/img/smiley/man.png'/>
+  - <img src='/mail/static/src/img/smiley/man_with_turban.png'/>
+  - <img src='/mail/static/src/img/smiley/musti.png'/>
+  - <img src='/mail/static/src/img/smiley/neutral.png'/>
+  - <img src='/mail/static/src/img/smiley/open_mouth.png'/>
+  - <img src='/mail/static/src/img/smiley/pinky.png'/>
+  - <img src='/mail/static/src/img/smiley/poop.png'/>
+  - <img src='/mail/static/src/img/smiley/postal_horn.png'/>
+  - <img src='/mail/static/src/img/smiley/sad.png'/>
+  - <img src='/mail/static/src/img/smiley/scream.png'/>
+  - <img src='/mail/static/src/img/smiley/smile.png'/>
+  - <img src='/mail/static/src/img/smiley/stuck_out_tongue.png'/>
+  - <img src='/mail/static/src/img/smiley/thumbsdown.png'/>
+  - <img src='/mail/static/src/img/smiley/thumbsup.png'/>
+  - <img src='/mail/static/src/img/smiley/trollface.png'/>
+  - <img src='/mail/static/src/img/smiley/wink.png'/>
+  - <img src='/mail/static/src/img/smiley/yum.png'/>
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 25
+    nil%: 0.0
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 51.56
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Category
+position: 6
+fingerprint_version: 5
+name: substitution
+database_position: 6
+has_field_values: auto-list
+display_name: Substitution
+parent_id: null
+caveats: null
+active: true
+database_type: text
+description: Substitution
+fk_target_field_id: null

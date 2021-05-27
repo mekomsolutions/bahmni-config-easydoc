@@ -1,0 +1,12 @@
+points_of_interest: null
+visibility_type: null
+schema: public
+show_in_getting_started: false
+name: wizard_valuation_history
+entity_name: null
+display_name: Wizard Valuation History
+caveats: null
+active: true
+entity_type: entity/GenericTable
+field_order: database
+description: Wizard that opens the stock valuation history table

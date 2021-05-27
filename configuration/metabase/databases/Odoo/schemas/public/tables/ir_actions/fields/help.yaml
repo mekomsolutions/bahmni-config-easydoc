@@ -1,0 +1,32 @@
+points_of_interest: null
+preview_display: false
+values: {}
+settings: null
+fingerprint:
+  global:
+    distinct-count: 98
+    nil%: 0.6957671957671958
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 106.5079365079365
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: null
+position: 2
+fingerprint_version: 5
+name: help
+database_position: 2
+has_field_values: auto-list
+display_name: Help
+parent_id: null
+caveats: null
+active: true
+database_type: text
+description: Action Description
+fk_target_field_id: null

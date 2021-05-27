@@ -1,0 +1,12 @@
+points_of_interest: null
+visibility_type: null
+schema: public
+show_in_getting_started: false
+name: make_procurement_stock_location_route_rel
+entity_name: null
+display_name: Make Procurement Stock Location Route Rel
+caveats: null
+active: true
+entity_type: entity/GenericTable
+field_order: database
+description: RELATION BETWEEN make_procurement AND stock_location_route

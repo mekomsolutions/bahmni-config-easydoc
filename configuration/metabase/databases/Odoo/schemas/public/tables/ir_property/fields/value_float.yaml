@@ -1,0 +1,33 @@
+points_of_interest: null
+preview_display: true
+values: {}
+settings: null
+fingerprint:
+  global:
+    distinct-count: 2
+    nil%: 0.9814814814814815
+  type:
+    type/Number:
+      min: 13.0
+      q1: 13.0
+      q3: 13.0
+      max: 13.0
+      sd: null
+      avg: 13.0
+visibility_type: normal
+base_type: type/Float
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: null
+position: 3
+fingerprint_version: 5
+name: value_float
+database_position: 3
+has_field_values: null
+display_name: Value Float
+parent_id: null
+caveats: null
+active: true
+database_type: float8
+description: Value float
+fk_target_field_id: null

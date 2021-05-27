@@ -1,0 +1,59 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - :(
+  - :)
+  - :+1
+  - :-1
+  - :/
+  - :@
+  - :D
+  - :O
+  - :beer
+  - :boar
+  - :cookie
+  - :ghost
+  - :kitten
+  - :man
+  - :musti
+  - :p
+  - :pinky
+  - :poop
+  - :postal_horn
+  - :troll
+  - :turban
+  - :|
+  - ;)
+  - <3
+  - O_0
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 25
+    nil%: 0.0
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 4.2
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Source
+position: 4
+fingerprint_version: 5
+name: source
+database_position: 4
+has_field_values: auto-list
+display_name: Source
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: Shortcut
+fk_target_field_id: null

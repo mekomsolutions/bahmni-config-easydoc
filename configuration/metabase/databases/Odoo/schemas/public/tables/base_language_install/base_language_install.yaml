@@ -1,0 +1,12 @@
+points_of_interest: null
+visibility_type: null
+schema: public
+show_in_getting_started: false
+name: base_language_install
+entity_name: null
+display_name: Base Language Install
+caveats: null
+active: true
+entity_type: entity/GenericTable
+field_order: database
+description: Install Language

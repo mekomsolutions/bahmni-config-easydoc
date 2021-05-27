@@ -1,0 +1,52 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - 3:0634fbdfd7588c8a2cb420c4384d2f74
+  - 3:1dd5725064fe3ec2bfffa4ea381c4e78
+  - 3:41b8a5c617806a66ae95d26ba2f0d4ea
+  - 3:611ac18e94b4a6d0a8146304d0074a9c
+  - 3:72986f2b1b097526684de3751be425a7
+  - 3:7b407a622276a05aa958e542915919fb
+  - 3:81e57697a04e61d836cd0f83f2f7a484
+  - 3:86d9b89ad7281606875be3e3dbe94848
+  - 3:92914b00ca1d9e9bc26aae37b0c7bd95
+  - 3:9e2b5cdf52eb8caa784986d0772e6cc8
+  - 3:aadb435d18418547364b6f75ff5fa095
+  - 3:b5b5392f635c057627e70a421a79cae3
+  - 3:ca2e4fc6f173c5ebcc3ebd089b9cfb01
+  - 3:d58290a2aa717bda88a59b0b73131bbd
+  - 3:d8963c306066cf138f1c813d0c29cff8
+  - 3:f0f21137ae90d294e6a077950af06d6f
+  - 3:f9c415f36f51c56f232a800635a3a776
+  - 3:feefbc7b1fbac1188eaeb758760d4122
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 18
+    nil%: 0.0
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 34.0
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Category
+position: 6
+fingerprint_version: 5
+name: md5sum
+database_position: 6
+has_field_values: auto-list
+display_name: Md5 Sum
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: null
+fk_target_field_id: null

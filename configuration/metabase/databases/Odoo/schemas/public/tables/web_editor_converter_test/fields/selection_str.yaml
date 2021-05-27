@@ -1,0 +1,23 @@
+points_of_interest: null
+preview_display: true
+values: {}
+settings: null
+fingerprint: null
+visibility_type: normal
+base_type: type/Text
+last_analyzed: null
+custom_position: 0
+special_type: null
+position: 11
+fingerprint_version: 0
+name: selection_str
+database_position: 11
+has_field_values: null
+display_name: Selection Str
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: 'Lorsqu''un pancake prend l''avion à destination de Toronto et qu''il
+  fait une escale technique à St Claude, on dit:'
+fk_target_field_id: null

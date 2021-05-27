@@ -1,0 +1,61 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - form
+  - form,tree
+  - graph
+  - graph,pivot
+  - kanban,form
+  - kanban,tree,form
+  - list,form
+  - pivot
+  - pivot,graph
+  - tree
+  - tree,form
+  - tree,form,calendar
+  - tree,form,calendar,graph
+  - tree,form,calendar,graph,pivot
+  - tree,form,diagram
+  - tree,form,graph
+  - tree,form,graph,pivot
+  - tree,form,kanban
+  - tree,form,kanban,calendar,graph,pivot
+  - tree,form,pivot
+  - tree,form,pivot,graph
+  - tree,graph,pivot
+  - tree,kanban
+  - tree,kanban,form
+  - tree,kanban,form,calendar
+  - tree,kanban,form,calendar,pivot,graph
+  - tree,kanban,form,pivot,graph,calendar
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 27
+    nil%: 0.0
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 10.256024096385541
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Category
+position: 15
+fingerprint_version: 5
+name: view_mode
+database_position: 15
+has_field_values: auto-list
+display_name: View Mode
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: View mode
+fk_target_field_id: null

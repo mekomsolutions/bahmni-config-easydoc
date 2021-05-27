@@ -1,0 +1,68 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - account.account
+  - account.account.type
+  - account.balance.report
+  - account.bank.statement
+  - account.financial.report
+  - account.invoice
+  - account.journal
+  - account.move
+  - account.move.line
+  - account.payment
+  - account.report.general.ledger
+  - account.tax
+  - fetchmail.server
+  - ir.model
+  - ir.module.category
+  - ir.module.module
+  - pos.config
+  - pos.session
+  - procurement.order
+  - product.product
+  - product.template
+  - purchase.order
+  - report.account.report_journal
+  - report.account.report_partnerledger
+  - res.company
+  - res.partner
+  - res.users
+  - sale.order
+  - stock.inventory
+  - stock.location
+  - stock.picking
+  - stock.production.lot
+  - stock.quant.package
+  - stock.warehouse
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 34
+    nil%: 0.0
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 14.87012987012987
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: null
+position: 12
+fingerprint_version: 5
+name: model
+database_position: 12
+has_field_values: auto-list
+display_name: Model
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: Model Name
+fk_target_field_id: null

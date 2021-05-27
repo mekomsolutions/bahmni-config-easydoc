@@ -1,0 +1,38 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - http://openmrs:8080/openmrs/ws/atomfeed/drug/347
+  - http://openmrs:8080/openmrs/ws/atomfeed/encounter/2
+  - http://openmrs:8080/openmrs/ws/atomfeed/lab/37
+  - http://openmrs:8080/openmrs/ws/atomfeed/patient/1
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 4
+    nil%: 0.0
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 1.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 48.5
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/URL
+position: 1
+fingerprint_version: 5
+name: feed_uri_for_last_read_entry
+database_position: 1
+has_field_values: auto-list
+display_name: Feed Uri For Last Read Entry
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: null
+fk_target_field_id: null

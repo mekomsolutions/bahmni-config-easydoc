@@ -1,0 +1,38 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - 0
+  - 1
+  - 2
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 3
+    nil%: 0.0
+  type:
+    type/Number:
+      min: 0.0
+      q1: 0.41421356237309515
+      q3: 1.5857864376269049
+      max: 2.0
+      sd: 0.7559289460184544
+      avg: 1.0
+visibility_type: normal
+base_type: type/Integer
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Category
+position: 3
+fingerprint_version: 5
+name: level
+database_position: 3
+has_field_values: auto-list
+display_name: Level
+parent_id: null
+caveats: null
+active: true
+database_type: int4
+description: Level
+fk_target_field_id: null

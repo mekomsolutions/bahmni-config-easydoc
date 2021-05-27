@@ -1,0 +1,73 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - "<p>\n                A generic acquirer payment acquirer.\n            </p>\n\
+    \            <ul>\n                <li><i class=\"fa fa-check\"></i>eCommerce</li>\n\
+    \            </ul>\n        "
+  - "<p>\n                A payment gateway from Atos Worldline to accept online payments\
+    \ via credit cards.\n            </p>\n            <ul>\n                <li><i\
+    \ class=\"fa fa-check\"></i>eCommerce</li>\n            </ul>\n        "
+  - "<p>\n                A payment gateway to accept online payments via credit cards\
+    \ and e-checks.\n            </p>\n            <ul class=\"list-inline\">\n  \
+    \              <li><i class=\"fa fa-check\"></i>eCommerce</li>\n             \
+    \   <li><i class=\"fa fa-check\"></i>Cards storage</li>\n                <li><i\
+    \ class=\"fa fa-check\"></i>Authorize &amp; Capture</li>\n            </ul>\n\
+    \        "
+  - "<p>\n                A payment gateway to accept online payments via credit cards,\
+    \ debit cards and bank transfers.\n            </p>\n            <ul>\n      \
+    \          <li><i class=\"fa fa-check\"></i>eCommerce</li>\n            </ul>\n\
+    \        "
+  - "<p>\n                A payment gateway to accept online payments via credit cards.\n\
+    \            </p>\n            <ul>\n                <li><i class=\"fa fa-check\"\
+    ></i>eCommerce</li>\n            </ul>\n        "
+  - "<p>\n                Ingenico Payment Services (formerly Ogone) supports credit\
+    \ cards, debit cards and bank transfers.\n            </p>\n            <ul class=\"\
+    list-inline\">\n                <li><i class=\"fa fa-check\"></i>eCommerce</li>\n\
+    \                <li><i class=\"fa fa-check\"></i>Cards storage</li>\n       \
+    \         <li><i class=\"fa fa-check\"></i>Pay button in emails</li>\n       \
+    \     </ul>\n        "
+  - "<p>\n                PayPal is the easiest way to accept payments via Paypal\
+    \ or credit cards.\n            </p>\n            <ul class=\"list-inline\">\n\
+    \                <li><i class=\"fa fa-check\"></i>eCommerce</li>\n           \
+    \     <li><i class=\"fa fa-check\"></i>Pay button in emails</li>\n           \
+    \ </ul>\n        "
+  - "<p>\n                PayU India is an online payments solutions company serving\
+    \ the Indian market.\n            </p>\n            <ul class=\"list-inline\"\
+    >\n                <li><i class=\"fa fa-check\"></i>eCommerce</li>\n         \
+    \       <li><i class=\"fa fa-check\"></i>Subscription</li>\n                <li><i\
+    \ class=\"fa fa-check\"></i>Pay button in emails</li>\n            </ul>\n   \
+    \     "
+  - "<p>\n                Provide instructions to customers so that they can pay their\
+    \ orders manually.\n            </p>\n            <ul>\n                <li><i\
+    \ class=\"fa fa-check\"></i>eCommerce</li>\n            </ul>\n        "
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 9
+    nil%: 0.0
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 273.1
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Description
+position: 17
+fingerprint_version: 5
+name: description
+database_position: 17
+has_field_values: auto-list
+display_name: Description
+parent_id: null
+caveats: null
+active: true
+database_type: text
+description: Description
+fk_target_field_id: null

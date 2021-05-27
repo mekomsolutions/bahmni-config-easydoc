@@ -1,0 +1,104 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - account_id
+  - act_from
+  - act_to
+  - act_window_id
+  - attribute_id
+  - bank_account_id
+  - barcode_nomenclature_id
+  - cashbox_id
+  - category_id
+  - channel_id
+  - chart_template_id
+  - company_id
+  - config_id
+  - country_id
+  - create_uid
+  - credit_move_id
+  - currency_id
+  - debit_move_id
+  - default_pos_id
+  - export_id
+  - fetchmail_server_id
+  - full_reconcile_id
+  - group_id
+  - inherit_id
+  - inventory_id
+  - invoice_id
+  - location_id
+  - lot_id
+  - mail_message_id
+  - model_id
+  - module_id
+  - move_dest_id
+  - move_id
+  - operation_id
+  - order_id
+  - orderpoint_id
+  - origin_returned_move_id
+  - package_id
+  - paperformat_id
+  - parent_id
+  - partner_id
+  - payment_id
+  - payment_token_id
+  - picking_id
+  - pos_order_line_id
+  - pos_session_id
+  - pos_statement_id
+  - position_id
+  - pricelist_id
+  - procurement_id
+  - product_id
+  - product_tmpl_id
+  - purchase_line_id
+  - putaway_id
+  - res_id
+  - reservation_id
+  - route_id
+  - sale_line_id
+  - sale_team_id
+  - sequence_id
+  - server_id
+  - session_id
+  - statement_id
+  - statement_line_id
+  - supplied_wh_id
+  - value_id
+  - voucher_id
+  - wizard_id
+  - wkf_id
+  - null
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 70
+    nil%: 0.971905020844662
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 0.2876563349646547
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: null
+position: 9
+fingerprint_version: 5
+name: relation_field
+database_position: 9
+has_field_values: auto-list
+display_name: Relation Field
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: null
+fk_target_field_id: null

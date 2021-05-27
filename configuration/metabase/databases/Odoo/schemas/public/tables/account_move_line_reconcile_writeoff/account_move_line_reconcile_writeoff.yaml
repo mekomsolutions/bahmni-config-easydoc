@@ -1,0 +1,12 @@
+points_of_interest: null
+visibility_type: null
+schema: public
+show_in_getting_started: false
+name: account_move_line_reconcile_writeoff
+entity_name: null
+display_name: Account Move Line Reconcile Write Off
+caveats: null
+active: true
+entity_type: entity/UserTable
+field_order: database
+description: Account move line reconcile (writeoff)

@@ -1,0 +1,40 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - '"${object.company_id.name|safe}" <${(object.company_id.email or user.email)|safe}>'
+  - ${(object.create_uid.email and '%s <%s>' % (object.create_uid.name, object.create_uid.email)
+    or '')|safe}
+  - ${(object.user_id.email and '%s <%s>' % (object.user_id.name, object.user_id.email)
+    or '')|safe}
+  - null
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 4
+    nil%: 0.4545454545454545
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 51.45454545454545
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Category
+position: 29
+fingerprint_version: 5
+name: email_from
+database_position: 29
+has_field_values: auto-list
+display_name: Email From
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: From
+fk_target_field_id: null

@@ -1,0 +1,120 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - |-
+    (lp1
+    I3
+    a.
+  - |-
+    (lp1
+    I4
+    a.
+  - |-
+    S'en_US'
+    p1
+    .
+  - ir.actions.act_window,104
+  - ir.actions.act_window,105
+  - ir.actions.act_window,130
+  - ir.actions.act_window,131
+  - ir.actions.act_window,132
+  - ir.actions.act_window,133
+  - ir.actions.act_window,135
+  - ir.actions.act_window,136
+  - ir.actions.act_window,137
+  - ir.actions.act_window,138
+  - ir.actions.act_window,139
+  - ir.actions.act_window,140
+  - ir.actions.act_window,142
+  - ir.actions.act_window,143
+  - ir.actions.act_window,144
+  - ir.actions.act_window,145
+  - ir.actions.act_window,146
+  - ir.actions.act_window,147
+  - ir.actions.act_window,150
+  - ir.actions.act_window,151
+  - ir.actions.act_window,172
+  - ir.actions.act_window,193
+  - ir.actions.act_window,194
+  - ir.actions.act_window,196
+  - ir.actions.act_window,197
+  - ir.actions.act_window,203
+  - ir.actions.act_window,211
+  - ir.actions.act_window,215
+  - ir.actions.act_window,216
+  - ir.actions.act_window,217
+  - ir.actions.act_window,223
+  - ir.actions.act_window,233
+  - ir.actions.act_window,244
+  - ir.actions.act_window,298
+  - ir.actions.act_window,306
+  - ir.actions.act_window,321
+  - ir.actions.act_window,322
+  - ir.actions.act_window,324
+  - ir.actions.act_window,338
+  - ir.actions.act_window,341
+  - ir.actions.act_window,36
+  - ir.actions.act_window,374
+  - ir.actions.act_window,50
+  - ir.actions.act_window,69
+  - ir.actions.act_window,81
+  - ir.actions.report.xml,120
+  - ir.actions.report.xml,121
+  - ir.actions.report.xml,183
+  - ir.actions.report.xml,184
+  - ir.actions.report.xml,185
+  - ir.actions.report.xml,186
+  - ir.actions.report.xml,187
+  - ir.actions.report.xml,188
+  - ir.actions.report.xml,190
+  - ir.actions.report.xml,191
+  - ir.actions.report.xml,242
+  - ir.actions.report.xml,262
+  - ir.actions.report.xml,263
+  - ir.actions.report.xml,264
+  - ir.actions.report.xml,265
+  - ir.actions.report.xml,266
+  - ir.actions.report.xml,267
+  - ir.actions.report.xml,268
+  - ir.actions.report.xml,29
+  - ir.actions.report.xml,327
+  - ir.actions.report.xml,346
+  - ir.actions.report.xml,353
+  - ir.actions.report.xml,354
+  - ir.actions.report.xml,372
+  - ir.actions.report.xml,40
+  - ir.actions.report.xml,96
+  - ir.actions.report.xml,97
+  - ir.actions.server,231
+  - ir.actions.server,48
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 77
+    nil%: 0.0
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 24.233766233766232
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: null
+position: 7
+fingerprint_version: 5
+name: value
+database_position: 7
+has_field_values: auto-list
+display_name: Value
+parent_id: null
+caveats: null
+active: true
+database_type: text
+description: Value
+fk_target_field_id: null

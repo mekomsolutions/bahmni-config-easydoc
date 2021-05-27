@@ -1,0 +1,58 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - ''
+  - |-
+    <p>Create purchase orders to buy products from your vendors, control supplier bills and manage payments.</p>
+    <p>If you need to manage blanket orders, purchase requisitions, or purchase tenders, activate them through the Configuration menu.</p>
+  - |-
+    <p>Manage your product inventory and stock locations: you can control stock moves history and planning,
+    watch your stock valuation, and track production lots (based on serial numbers).</p>
+  - |-
+    <p>Odoo's electronic invoicing accelerates the creation of invoices and collection of customer payments. Invoices are created in a few clicks and your customers receive them by email. They can pay online and/or import them in their own system.</p>
+    <p>You can track customer payments easily and automate follow-ups. You get an overview of the discussion with your customers on each invoice for easier traceability. For advanced accounting features, you should install the "Accounting and Finance" module.</p>
+  - <p>Partner created</p>
+  - <p>Product Template created</p>
+  - <p>Product created</p>
+  - |-
+    <p>Record sale orders, register payments, compute change to return, create invoices, and manage refunds through a specific web touch-screen interface.</p>
+    <p>You can interface Odoo with retail hardware: barcode scanners, printers, cash registers, weighing machines, credit card payment terminals.</p>
+  - <p>Sales Order created</p>
+  - <p>Sales Team created</p>
+  - |-
+    <p>This application lets you create and send quotations and process your sales orders; from delivery to invoicing.</p>
+    <p>If you need to manage your sales pipeline (leads, opportunities, phonecalls), the <i>CRM</i> application may be useful.</p>
+  - |-
+    <p>Welcome to the #general channel.</p>
+                <p>This channel is accessible to all users to <b>easily share company information</b>.</p>
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 12
+    nil%: 0.0
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 26.795416666666668
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Category
+position: 11
+fingerprint_version: 5
+name: body
+database_position: 11
+has_field_values: auto-list
+display_name: Body
+parent_id: null
+caveats: null
+active: true
+database_type: text
+description: Contents
+fk_target_field_id: null

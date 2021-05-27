@@ -1,0 +1,90 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - account_account_tag_id
+  - account_analytic_tag_id
+  - account_fiscal_position_id
+  - account_id
+  - account_journal_id
+  - account_move_line_id
+  - account_tax_id
+  - account_type_id
+  - action_id
+  - attachment_id
+  - categ_id
+  - category_id
+  - channel_id
+  - child_tax
+  - cid
+  - gid
+  - group_id
+  - hid
+  - inbound_payment_method
+  - invoice_id
+  - invoice_line_id
+  - journal_id
+  - mail_channel_id
+  - mail_message_id
+  - mail_message_subtype_id
+  - menu_id
+  - module_id
+  - move_id
+  - order_line_id
+  - outbound_payment_method
+  - partner_id
+  - payment_id
+  - pos_config_id
+  - pricelist_id
+  - product_attribute_value_id
+  - product_id
+  - product_product_id
+  - quant_id
+  - res_country_group_id
+  - res_country_id
+  - res_country_state_id
+  - res_groups_id
+  - res_partner_id
+  - route_id
+  - rule_group_id
+  - stock_location_route_id
+  - supplier_wh_id
+  - tag_id
+  - tax_id
+  - trans_id
+  - type_id
+  - uid
+  - user_id
+  - view_id
+  - warehouse_id
+  - null
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 56
+    nil%: 0.9804241435562806
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 0.2508609751676636
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: null
+position: 20
+fingerprint_version: 5
+name: column2
+database_position: 20
+has_field_values: auto-list
+display_name: Colum N2
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: null
+fk_target_field_id: null

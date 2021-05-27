@@ -1,0 +1,90 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - |-
+    java.lang.RuntimeException: ascii
+    CHG1020 - Debridement petite Ã©tendue
+    29
+    30
+    ordinal not in range(128)
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/odoo-10.0.post20200101-py2.7.egg/odoo/service/wsgi_server.py", line 56, in xmlrpc_return
+        result = odoo.http.dispatch_rpc(service, method, params)
+      File "/usr/local/lib/python2.7/site-packages/odoo-10.0.post20200101-py2.7.egg/odoo/http.py", line 118, in dispatch_rpc
+        result = dispatch(method, params)
+      File "/usr/local/lib/python2.7/site-packages/odoo-10.0.post20200101-py2.7.egg/odoo/service/model.py", line 38, in dispatch
+        res = fn(db, uid, *params)
+      File "/usr/local/lib/python2.7/site-packages/odoo-10.0.post20200101-py2.7.egg/odoo/service/model.py", line 101, in wrapper
+        return f(dbname, *args, **kwargs)
+      File "/usr/local/lib/python2.7/site-packages/odoo-10.0.post20200101-py2.7.egg/odoo/service/model.py", line 182, in execute
+        res = execute_cr(cr, uid, obj, method, *args, **kw)
+      File "/usr/local/lib/python2.7/site-packages/odoo-10.0.post20200101-py2.7.egg/odoo/service/model.py", line 171, in execute_cr
+        return odoo.api.call_kw(recs, method, args, kw)
+      File "/usr/local/lib/python2.7/site-packages/odoo-10.0.post20200101-py2.7.egg/odoo/api.py", line 687, in call_kw
+        return call_kw_model(method, model, args, kwargs)
+      File "/usr/local/lib/python2.7/site-packages/odoo-10.0.post20200101-py2.7.egg/odoo/api.py", line 672, in call_kw_model
+        result = method(recs, *args, **kwargs)
+      File "/opt/bahmni-addons/bahmni_atom_feed/models/atom_event_worker.py", line 28, in process_event
+        self.env['order.save.service'].create_orders(vals)
+      File "/opt/bahmni-addons/bahmni_atom_feed/models/order_save_service.py", line 188, in create_orders
+        self._process_orders(order, unprocessed_non_dispensed_order, rec)
+      File "/opt/bahmni-addons/bahmni_atom_feed/models/order_save_service.py", line 366, in _process_orders
+        self._create_sale_order_line(sale_order.id, order)
+      File "/opt/bahmni-addons/bahmni_atom_feed/models/order_save_service.py", line 384, in _create_sale_order_line
+        self._create_sale_order_line_function(sale_order, order)
+      File "/opt/bahmni-addons/bahmni_atom_feed/models/order_save_service.py", line 428, in _create_sale_order_line_function
+        description = " ".join([str(prod_obj.name), "- Total", str(product_uom_qty), str(order.get('quantityUnits', None))])
+    UnicodeEncodeError: 'ascii' codec can't encode character u'\xe9' in position 29: ordinal not in range(128)
+
+    java.lang.RuntimeException: java.lang.RuntimeException: ascii
+    CHG1020 - Debridement petite Ã©tendue
+    29
+    30
+    ordinal not in range(128)
+    Traceback (most recent call last):
+      File "/usr/local/lib/python2.7/site-packages/odoo-10.0.post20200101-py2.7.egg/odoo/service/wsgi_server.py", line 56, in xmlrpc_return
+        result = odoo.http.dispatch_rpc(service, method, params)
+      File "/usr/local/lib/python2.7/site-packages/odoo-10.0.post20200101-py2.7.egg/odoo/http.py", line 118, in dispatch_rpc
+        result = dispatch(method, params)
+      File "/usr/local/lib/python2.7/site-packages/odoo-10.0.post20200101-py2.7.egg/odoo/service/model.py", line 38, in dispatch
+        res = fn(db, uid, *params)
+      File "/usr/local/lib/python2.7/site-packages/odoo-10.0.post20200101-py2.7.egg/odoo/service/model.py", line 101, in wrapper
+        return f(dbname, *args, **kwargs)
+      File "/usr/local/lib/python2.7/site-packages/odoo-10.0.post20200101-py2.7.egg/odoo/service/model.py", line 182, in execute
+        res = execute_cr(cr, uid, obj, method, *args, **kw)
+      File "/usr/local/lib/python2.7/site-packages/odoo-10.0.post20200101-py2.7.egg/odoo/service/model.py", line 171, in execute_cr
+        return odoo.api.call_kw(recs, method, args, kw)
+      File "/usr/local/lib/python2.7/site-packages/odoo-10.0.post20200101-py2.7.egg/odoo/api.py", line 687, in call_kw
+        return call_kw_model(method, model, args, kwargs)
+      File "/usr/local/lib/python2.7/site-packages/odoo-10.0.post20200101-py2.7.egg/odoo/api.py", line 672, in call
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 1
+    nil%: 0.0
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 1234.0
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Category
+position: 3
+fingerprint_version: 5
+name: error_message
+database_position: 3
+has_field_values: auto-list
+display_name: Error Message
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: null
+fk_target_field_id: null

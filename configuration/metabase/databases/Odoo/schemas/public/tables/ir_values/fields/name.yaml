@@ -1,0 +1,107 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - Account Payment
+  - Categorized Apps
+  - Companies
+  - Delivery Slip
+  - Due Payments
+  - Duplicates
+  - Financial report
+  - General Ledger
+  - Inventory
+  - Invoice Orders
+  - Invoices
+  - Location BarCode
+  - Lot BarCode
+  - Model Overview
+  - Package BarCode
+  - Package BarCode with Contents
+  - Partner Ledger
+  - Picking Operations
+  - Post Journal Entries
+  - Preview External Report
+  - Preview Internal Report
+  - Products Labels
+  - Purchase Order
+  - Quotation / Order
+  - Reconcile Entries
+  - Request for Quotation
+  - Reverse Moves
+  - Run Procurements
+  - Sale/Purchase Journal
+  - Statement
+  - Technical guide
+  - Trial Balance
+  - Unreconcile Entries
+  - User Labels
+  - act_account_acount_move_line_open_unreconciled
+  - act_account_invoice_partner_relation
+  - act_account_journal_2_account_bank_statement
+  - act_account_journal_2_account_invoice_opened
+  - act_account_journal_2_account_move_line
+  - act_account_move_to_account_move_line_open
+  - act_account_partner_ledger_payable
+  - act_account_partner_ledger_payable_no_partner
+  - act_account_partner_ledger_receivable
+  - act_account_partner_ledger_receivable_no_partner
+  - act_account_tax_net
+  - act_account_tax_net_posted
+  - act_account_tax_tax
+  - act_account_tax_tax_posted
+  - act_journal_voucher_open
+  - act_pos_config_sessions
+  - act_pos_open_statement
+  - act_pos_session_orders
+  - act_product_location_open
+  - act_server_history
+  - act_stock_warehouse_2_stock_warehouse_orderpoint
+  - action_account_invoice_confirm
+  - action_account_payment_from_invoices
+  - action_bahmni_dhis2_code_export
+  - action_cash_box_in
+  - action_cash_box_out
+  - action_module_immediate_install
+  - action_move_line_select
+  - action_move_line_select_by_partner
+  - action_move_line_select_by_type
+  - action_partner_mass_mail
+  - action_pos_box_in
+  - action_pos_box_out
+  - action_product_price_list
+  - change_password_wizard_action
+  - lang
+  - partner_wizard_action
+  - supplier_taxes_id
+  - taxes_id
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 73
+    nil%: 0.0
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 21.805194805194805
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Name
+position: 3
+fingerprint_version: 5
+name: name
+database_position: 3
+has_field_values: auto-list
+display_name: Name
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: Name
+fk_target_field_id: null

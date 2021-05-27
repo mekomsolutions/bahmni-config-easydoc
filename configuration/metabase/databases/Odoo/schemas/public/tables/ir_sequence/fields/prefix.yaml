@@ -1,0 +1,68 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - A
+  - BILL/%(range_year)s/
+  - BNK/%(range_year)s/
+  - BNK1/%(range_year)s/
+  - CASH/%(range_year)s/
+  - CC/%(range_year)s/
+  - CHK/%(range_year)s/
+  - CSH1/%(range_year)s/
+  - CUST.IN/%(range_year)s/
+  - CUST.OUT/%(range_year)s/
+  - EXCH/%(range_year)s/
+  - INT/
+  - INV/%(range_year)s/
+  - MISC/%(range_year)s/
+  - Main/
+  - OP/
+  - PACK
+  - PG/
+  - PO
+  - POS
+  - POS/%(year)s/%(month)s/%(day)s/
+  - POSS/%(range_year)s/
+  - SO
+  - SP/
+  - STJ/%(range_year)s/
+  - SUPP.IN/%(range_year)s/
+  - SUPP.OUT/%(range_year)s/
+  - TRANS/%(range_year)s/
+  - WH/IN/
+  - WH/INT/
+  - WH/OUT/
+  - WH/PACK/
+  - WH/PICK/
+  - null
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 34
+    nil%: 0.05555555555555556
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 12.527777777777779
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: null
+position: 11
+fingerprint_version: 5
+name: prefix
+database_position: 11
+has_field_values: auto-list
+display_name: Prefix
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: Prefix
+fk_target_field_id: null

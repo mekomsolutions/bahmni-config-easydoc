@@ -1,0 +1,38 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - tag:atomfeed.ict4h.org:204cda09-c881-49ca-a405-501098515b8d
+  - tag:atomfeed.ict4h.org:4437ddc1-6676-4d2c-afd0-cc65a93a46d2
+  - tag:atomfeed.ict4h.org:7d1d038b-ce87-4ee4-af29-3d08d43da541
+  - tag:atomfeed.ict4h.org:87f9a1c1-1a82-48eb-8c54-31aa2cbacc28
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 4
+    nil%: 0.0
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 59.0
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Category
+position: 3
+fingerprint_version: 5
+name: last_read_entry_id
+database_position: 3
+has_field_values: auto-list
+display_name: Last Read Entry ID
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: null
+fk_target_field_id: null

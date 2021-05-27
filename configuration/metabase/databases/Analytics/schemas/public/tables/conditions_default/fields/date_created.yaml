@@ -1,0 +1,29 @@
+points_of_interest: null
+preview_display: true
+values: {}
+settings: null
+fingerprint:
+  global:
+    distinct-count: 2
+    nil%: 0.0
+  type:
+    type/DateTime:
+      earliest: '2021-05-26T20:30:59Z'
+      latest: '2021-05-26T20:44:53Z'
+visibility_type: normal
+base_type: type/DateTime
+last_analyzed: '2021-05-26T21:00:02.682934Z'
+custom_position: 0
+special_type: type/CreationTimestamp
+position: 11
+fingerprint_version: 5
+name: date_created
+database_position: 11
+has_field_values: null
+display_name: Date Created
+parent_id: null
+caveats: null
+active: true
+database_type: timestamp
+description: null
+fk_target_field_id: null

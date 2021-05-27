@@ -1,0 +1,12 @@
+points_of_interest: null
+visibility_type: null
+schema: public
+show_in_getting_started: false
+name: sale_order_line_invoice_rel
+entity_name: null
+display_name: Sale Order Line Invoice Rel
+caveats: null
+active: true
+entity_type: entity/TransactionTable
+field_order: database
+description: RELATION BETWEEN account_invoice_line AND sale_order_line

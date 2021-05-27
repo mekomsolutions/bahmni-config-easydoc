@@ -1,0 +1,12 @@
+points_of_interest: null
+visibility_type: null
+schema: public
+show_in_getting_started: false
+name: stock_production_lot
+entity_name: null
+display_name: Stock Production Lot
+caveats: null
+active: true
+entity_type: entity/GenericTable
+field_order: database
+description: Lot/Serial

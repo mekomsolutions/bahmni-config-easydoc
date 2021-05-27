@@ -1,0 +1,45 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - Average Delivery Time
+  - By Country
+  - By Product
+  - By Product Category
+  - By Refund
+  - By Salespersons
+  - By Salesteam
+  - Monthly Purchases
+  - Per session
+  - Price Per Vendor
+  - Sales Funnel
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 11
+    nil%: 0.0
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 13.615384615384615
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Name
+position: 5
+fingerprint_version: 5
+name: name
+database_position: 5
+has_field_values: auto-list
+display_name: Name
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: Filter Name
+fk_target_field_id: null

@@ -1,0 +1,44 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - 14
+  - 20
+  - 36
+  - 40
+  - 50
+  - 60
+  - 70
+  - 80
+  - 90
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 9
+    nil%: 0.0
+  type:
+    type/Number:
+      min: 14.0
+      q1: 32.0
+      q3: 72.5
+      max: 90.0
+      sd: 26.174627239200774
+      avg: 51.111111111111114
+visibility_type: normal
+base_type: type/Integer
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Category
+position: 5
+fingerprint_version: 5
+name: sequence
+database_position: 5
+has_field_values: auto-list
+display_name: Sequence
+parent_id: null
+caveats: null
+active: true
+database_type: int4
+description: Sequence
+fk_target_field_id: null

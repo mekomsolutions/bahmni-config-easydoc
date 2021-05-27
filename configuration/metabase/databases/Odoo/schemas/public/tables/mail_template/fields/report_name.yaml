@@ -1,0 +1,41 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - ${(object.name or '').replace('/','_')}${object.state == 'draft' and '_draft'
+    or ''}
+  - Invoice_${(object.number or '').replace('/','_')}_${object.state == 'draft' and
+    'draft' or ''}
+  - PO_${(object.name or '').replace('/','_')}
+  - RFQ_${(object.name or '').replace('/','_')}
+  - null
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 5
+    nil%: 0.6363636363636364
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 23.90909090909091
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Category
+position: 25
+fingerprint_version: 5
+name: report_name
+database_position: 25
+has_field_values: auto-list
+display_name: Report Name
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: Report Filename
+fk_target_field_id: null

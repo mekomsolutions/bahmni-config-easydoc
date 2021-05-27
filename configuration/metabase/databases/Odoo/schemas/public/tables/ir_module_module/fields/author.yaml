@@ -1,0 +1,87 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - ACSONE SA/NV, Odoo Community Association (OCA)
+  - Ahmet Altınışık
+  - Akretion, Odoo Brasil
+  - Akretion,Odoo Community Association (OCA)
+  - Almacom
+  - AvanzOSC,Grupo Vermon,Tecnativa,Odoo Community Association (OCA)
+  - Baamtu Senegal
+  - Camptocamp
+  - ClearCorp S.A.
+  - Cubic ERP
+  - DVIT.ME
+  - David Arnold BA HSG (devCO)
+  - Eezee-It
+  - Fekete Mihai (Forest and Biomass Services Romania)
+  - General Solutions
+  - Gnuthink Co.Ltd.
+  - Grzegorz Grzelak (OpenGLOBE)
+  - Gustavo Valverde - iterativo | Consultores de Odoo
+  - InnOpen Group Kft
+  - José Rodrigo Fernández Menegazzo
+  - Mekom Solutions
+  - Mentis d.o.o.
+  - Michael Telahun Makonnen <mmakonnen@gmail.com>
+  - Noviat
+  - Noviat, Odoo SA
+  - Odoo S.A.
+  - Odoo SA, Valentino Lab (Kalysto)
+  - Onestein
+  - OpenERP Croatian Community
+  - OpenERP Italian Community
+  - OpenERP SA, ADN, ACSONE SA/NV
+  - P. Christeas, OpenERP SA.
+  - Richard deMeester - Willow IT
+  - Rolv Råen
+  - Rooms For (Hong Kong) Limited T/A OSCG
+  - Salvatore Josue Trimarchi Pinto
+  - Savoir-faire Linux
+  - SmartMode LTD
+  - Spanish Localization Team
+  - Tech Receptives
+  - ThinkOpen Solutions
+  - Uruguay l10n Team, Guillem Barba
+  - Vauxoo
+  - Yannick Buron (SYNERPGY)
+  - '[''Cubic ERP'']'
+  - '[''Odoo S.A.'', ''Vauxoo'']'
+  - '[''Odoo SA'', ''FS3'']'
+  - '[''lvxin@gmail.co'', ''oldrev@gmail.co'', ''ccdos@intoerp.com'', ''jeff@osbzr.com'',
+    ''jeffery9@gmail.com'']'
+  - conexus.at
+  - kazacube
+  - openbig.org
+  - www.openerp-china.org
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 52
+    nil%: 0.0
+  type:
+    type/Text:
+      percent-json: 0.01677852348993289
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 11.624161073825503
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Author
+position: 8
+fingerprint_version: 5
+name: author
+database_position: 8
+has_field_values: auto-list
+display_name: Author
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: null
+fk_target_field_id: null

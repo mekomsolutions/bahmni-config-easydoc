@@ -1,0 +1,126 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - Access own payment tokens only
+  - Access own payment transaction only
+  - Account Entry
+  - Account bank statement company rule
+  - Account bank statement line company rule
+  - Account fiscal Mapping company rule
+  - Account multi-company
+  - Account payment company rule
+  - Account reconcile model template company rule
+  - All Orders
+  - All Orders Analysis
+  - All Orders Lines
+  - All Planner
+  - Analytic line multi company rule
+  - Analytic multi company rule
+  - 'Defaults: alter personal values only'
+  - Entry lines
+  - ICP read rule
+  - Inventory Line multi-company
+  - Inventory multi-company
+  - Invoice Analysis multi-company
+  - Invoice Line company rule
+  - Invoice multi-company
+  - Journal multi-company
+  - Location multi-company
+  - 'Mail.channel: access only public and joined groups'
+  - Partner bank company rule
+  - Personal Order Lines
+  - Personal Orders
+  - Personal Orders Analysis
+  - Point Of Sale Bank Statement Accountant
+  - Point Of Sale Bank Statement Line Accountant
+  - Point Of Sale Bank Statement Line POS User
+  - Point Of Sale Bank Statement POS User
+  - Point Of Sale Cashbox Line Accountant
+  - Point Of Sale Config
+  - Point Of Sale Order
+  - Point Of Sale Order Analysis multi-company
+  - Point Of Sale Session
+  - Portal Follower Pack Operations
+  - Portal Follower Pickings
+  - Portal Invoice Lines
+  - Portal Personal Account Invoices
+  - Portal Personal Contacts
+  - Portal Personal Quotations/Sales Orders
+  - Portal Planner
+  - Portal Sales Orders Line
+  - Product multi-company
+  - Property multi-company
+  - Purchase Order Line multi-company
+  - Purchase Order Report multi-company
+  - Purchase Order multi-company
+  - Sales Order Analysis multi-company
+  - Sales Order Line multi-company
+  - Sales Order multi-company
+  - Sales Team multi-company
+  - Stock History multi-company
+  - Stock Picking Type multi-company
+  - Tax multi-company
+  - Voucher Line multi-company
+  - Voucher multi-company
+  - Warehouse multi-company
+  - company rule employee
+  - company rule erp manager
+  - company rule portal
+  - company rule public
+  - 'ir.filter: portal/public'
+  - ir.filters.admin.all.rights
+  - ir.filters.own.rule.delete
+  - ir.filters.owner
+  - ir.ui.view_custom rule
+  - 'mail.followers: write its own entries'
+  - 'mail.message.subtype: portal/public: read public subtypes'
+  - 'mail.notifications: group_user: write its own entries'
+  - multi-company currency rate rule
+  - procurement multi-company
+  - product pricelist company rule
+  - product pricelist item company rule
+  - product supplierinfo company rule
+  - product_pulled_flow multi-company
+  - res.partner company
+  - res.partner.rule.private.employee
+  - res.partner.rule.private.group
+  - res.users.log per user
+  - 'res_partner: portal/public: read access on my commercial partner'
+  - stock_location_path multi-company
+  - stock_location_route multi-company
+  - stock_move multi-company
+  - stock_picking multi-company
+  - stock_quant multi-company
+  - stock_warehouse.orderpoint multi-company
+  - user rule
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 92
+    nil%: 0.0
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 27.892473118279568
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Name
+position: 3
+fingerprint_version: 5
+name: name
+database_position: 3
+has_field_values: auto-list
+display_name: Name
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: Name
+fk_target_field_id: null

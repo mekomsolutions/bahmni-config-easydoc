@@ -1,0 +1,37 @@
+points_of_interest: null
+preview_display: true
+values:
+  values:
+  - ${object.email|safe}
+  - ${object.partner_id.email}
+  - null
+  human_readable_values: []
+settings: null
+fingerprint:
+  global:
+    distinct-count: 3
+    nil%: 0.7272727272727273
+  type:
+    type/Text:
+      percent-json: 0.0
+      percent-url: 0.0
+      percent-email: 0.0
+      percent-state: 0.0
+      average-length: 6.0
+visibility_type: normal
+base_type: type/Text
+last_analyzed: '2021-05-26T21:06:12.647719Z'
+custom_position: 0
+special_type: type/Category
+position: 18
+fingerprint_version: 5
+name: email_to
+database_position: 18
+has_field_values: auto-list
+display_name: Email To
+parent_id: null
+caveats: null
+active: true
+database_type: varchar
+description: To (Emails)
+fk_target_field_id: null

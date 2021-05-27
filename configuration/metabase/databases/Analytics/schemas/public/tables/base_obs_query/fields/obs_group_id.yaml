@@ -1,0 +1,33 @@
+points_of_interest: null
+preview_display: true
+values: {}
+settings: null
+fingerprint:
+  global:
+    distinct-count: 9
+    nil%: 0.2105263157894737
+  type:
+    type/Number:
+      min: 1.0
+      q1: 5.741657386773941
+      q3: 12.875
+      max: 17.0
+      sd: 5.119523787377475
+      avg: 9.066666666666666
+visibility_type: normal
+base_type: type/Integer
+last_analyzed: '2021-05-26T17:04:05.299675Z'
+custom_position: 0
+special_type: type/Category
+position: 3
+fingerprint_version: 5
+name: obs_group_id
+database_position: 3
+has_field_values: auto-list
+display_name: O Bs Group ID
+parent_id: null
+caveats: null
+active: true
+database_type: int4
+description: null
+fk_target_field_id: null
