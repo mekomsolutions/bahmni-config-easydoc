@@ -118,8 +118,10 @@
   "DASHBOARD_TITLE_HISTORY_KEY": "History",
   "IMPL_IMMUNIZATIONS": "Immunizations",
   "IMPL_REFERRALS": "Referrals",
-    "IMPL_DENTAL": "Dental",
-    "IMPL_TESTS_IN_CLINIC_CHART":"Tests in Clinic",
-"CONSULTATION_PAD_EMPTY_MESSAGE":"No consultation Notes"
+  "IMPL_DENTAL": "Dental",
+  "IMPL_TESTS_IN_CLINIC_CHART":"Tests in Clinic",
+  "CONSULTATION_PAD_EMPTY_MESSAGE":"No consultation Notes",
+
+  "CLINICAL_ACCEPT": "Accept"
 
 }
