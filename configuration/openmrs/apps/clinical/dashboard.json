@@ -162,6 +162,17 @@
         "dashboardConfig": {},
         "numberOfVisits": 5
       },
+      "followup": {
+        "translationKey": "DASHBOARD_TITLE_FOLLOW_UP_KEY",
+        "type": "observation",
+        "title": "Follow up",
+        "isObservation": true,
+          "displayOrder":1001,
+          "dashboardConfig": {
+            "conceptNames": ["Medical treatment started", "Comments", "Home assistance requested"],
+              "scope": "latest"
+          }
+      },
       "radiologyOrders": {
         "orderType": "Radiology Order",
         "type": "ordersControl",
@@ -559,16 +570,5 @@
         "numberOfVisits": 5
       }
     }
-  },
-  "followup": {
-    "translationKey": "DASHBOARD_TITLE_FOLLOW_UP_KEY",
-    "type": "observation",
-    "title": "Follow up",
-    "isObservation": true,
-      "displayOrder":1001,
-      "dashboardConfig": {
-        "conceptNames": ["Medical treatment started", "Comments", "Home assistance requested"],
-          "scope": "latest"
-          }
-     }
+  }
 }
