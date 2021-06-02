@@ -419,5 +419,8 @@
   "DASHBOARD_UPCOMING_APPOINTMENTS_KEY": "Prochains rendez-vous",
   "DASHBOARD_UPCOMING_APPOINTMENTS_KEY_LINK": "Vue en liste",
   "DASHBOARD_NO_PAST_APPOINTMENTS_KEY": "Aucun rendez-vous passé",
-  "DASHBOARD_NO_UPCOMING_APPOINTMENTS_KEY": "Aucun rendez-vous à venir"
+  "DASHBOARD_NO_UPCOMING_APPOINTMENTS_KEY": "Aucun rendez-vous à venir",
+
+  "DASHBOARD_TITLE_FOLLOW_UP_KEY": "Suivi Médical Téléphonique"
+
 }
