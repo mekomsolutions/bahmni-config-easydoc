@@ -162,12 +162,12 @@
         "dashboardConfig": {},
         "numberOfVisits": 5
       },
-      "followup": {
+      "followUp": {
         "type": "forms",
         "isObservation": true,
         "displayOrder": 1001,
         "hideEmptyDisplayControl": false,
-        "dashBoardConfig": {
+        "dashboardConfig": {
           "showDetailsButton": true,
           "numberOfVisits": 5,
           "conceptNames": [
