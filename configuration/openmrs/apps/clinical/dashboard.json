@@ -163,15 +163,26 @@
         "numberOfVisits": 5
       },
       "followup": {
-        "translationKey": "DASHBOARD_TITLE_FOLLOW_UP_KEY",
-        "type": "observation",
-        "title": "Follow up",
+        "type": "forms",
         "isObservation": true,
-          "displayOrder":1001,
-          "dashboardConfig": {
-            "conceptNames": ["Medical treatment started", "Comments", "Home assistance requested"],
-              "scope": "latest"
-          }
+        "displayOrder": 1001,
+        "hideEmptyDisplayControl": false,
+        "dashBoardConfig": {
+          "showDetailsButton": true,
+          "numberOfVisits": 5,
+          "conceptNames": [
+            "Follow Up Form"
+          ]
+        },
+        "expandedViewConfig": {
+          "showDetailsButton": true,
+          "showGroupDateTime": false,
+          "conceptNames": [
+            "Follow Up Form"
+          ],
+          "pivotTable": {}
+        },
+        "translationKey": "DASHBOARD_TITLE_FOLLOW_UP_KEY"
       },
       "radiologyOrders": {
         "orderType": "Radiology Order",
