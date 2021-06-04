@@ -122,6 +122,8 @@
   "IMPL_TESTS_IN_CLINIC_CHART":"Tests in Clinic",
   "CONSULTATION_PAD_EMPTY_MESSAGE":"No consultation Notes",
 
-  "CLINICAL_ACCEPT": "Accept"
+  "CLINICAL_ACCEPT": "Accept",
+
+  "DASHBOARD_TITLE_FOLLOW_UP_KEY": "Follow Up"
 
 }

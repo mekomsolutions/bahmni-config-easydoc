@@ -162,6 +162,28 @@
         "dashboardConfig": {},
         "numberOfVisits": 5
       },
+      "followUp": {
+        "type": "forms",
+        "isObservation": true,
+        "displayOrder": 1001,
+        "hideEmptyDisplayControl": false,
+        "dashboardConfig": {
+          "showDetailsButton": true,
+          "numberOfVisits": 2,
+          "conceptNames": [
+            "Follow Up Form"
+          ]
+        },
+        "expandedViewConfig": {
+          "showDetailsButton": true,
+          "showGroupDateTime": false,
+          "conceptNames": [
+            "Follow Up Form"
+          ],
+          "pivotTable": {}
+        },
+        "translationKey": "DASHBOARD_TITLE_FOLLOW_UP_KEY"
+      },
       "radiologyOrders": {
         "orderType": "Radiology Order",
         "type": "ordersControl",

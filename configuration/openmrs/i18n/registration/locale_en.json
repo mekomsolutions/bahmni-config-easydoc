@@ -127,5 +127,6 @@
   "impl.commune": "Commune",
   "impl.district": "District",
   "impl.phoneNumber": "Phone Number",
-  "impl.province": "Province"
+  "impl.province": "Province",
+  "FOLLOW_UP": "Follow Up"
 }
