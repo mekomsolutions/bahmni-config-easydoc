@@ -169,7 +169,7 @@
         "hideEmptyDisplayControl": false,
         "dashboardConfig": {
           "showDetailsButton": true,
-          "numberOfVisits": 5,
+          "numberOfVisits": 2,
           "conceptNames": [
             "Follow Up Form"
           ]
